@@ -1,0 +1,1251 @@
+.\0x01f8c4e3fa3edeb29e514cba738d87ce8c091d3f.sol
+   15:26   severity:1   Hardcoded address                            SOLIDITY_ADDRESS_HARDCODED_adc165                    
+   54:26   severity:2   Use of call function with no data            SOLIDITY_CALL_WITHOUT_DATA_om991k                    
+   7:16    severity:1   Compiler version not fixed                   SOLIDITY_PRAGMAS_VERSION_23fc32                      
+   22:8    severity:1   Revert inside the if-operator                SOLIDITY_REVERT_REQUIRE_c56b12                       
+   29:8    severity:1   Revert inside the if-operator                SOLIDITY_REVERT_REQUIRE_c56b12                       
+   19:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   26:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   33:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   47:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   54:26   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_83k1no                       
+   63:4    severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_91h3sa                       
+   87:47   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_341gim                       
+   15:4    severity:1   Implicit visibility level                    SOLIDITY_VISIBILITY_b51ce0                           
+   17:4    severity:1   Implicit visibility level                    SOLIDITY_VISIBILITY_b51ce0                           
+   85:4    severity:1   Implicit visibility level                    SOLIDITY_VISIBILITY_b51ce0                           
+.\0x23a91059fdc9579a9fbd0edc5f2ea0bfdb70deb4.sol
+   38:26   severity:2   Use of call function with no data            SOLIDITY_CALL_WITHOUT_DATA_om991k                    
+   7:16    severity:1   Compiler version not fixed                   SOLIDITY_PRAGMAS_VERSION_23fc32                      
+   22:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   38:26   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_83k1no                       
+   46:15   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_91h3sa                       
+   65:47   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_341gim                       
+   17:4    severity:1   Implicit visibility level                    SOLIDITY_VISIBILITY_910067                           
+   33:4    severity:1   Implicit visibility level                    SOLIDITY_VISIBILITY_910067                           
+   15:4    severity:1   Implicit visibility level                    SOLIDITY_VISIBILITY_b51ce0                           
+   63:4    severity:1   Implicit visibility level                    SOLIDITY_VISIBILITY_b51ce0                           
+.\0x4320e6f8c05b27ab4707cd1f6d5ce6f3e4b3a5a1.sol
+   16:26   severity:1   Hardcoded address                            SOLIDITY_ADDRESS_HARDCODED_adc165                    
+   55:26   severity:2   Use of call function with no data            SOLIDITY_CALL_WITHOUT_DATA_om991k                    
+   8:16    severity:1   Compiler version not fixed                   SOLIDITY_PRAGMAS_VERSION_23fc32                      
+   23:8    severity:1   Revert inside the if-operator                SOLIDITY_REVERT_REQUIRE_c56b12                       
+   30:8    severity:1   Revert inside the if-operator                SOLIDITY_REVERT_REQUIRE_c56b12                       
+   20:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   27:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   34:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   48:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   55:26   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_83k1no                       
+   64:4    severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_91h3sa                       
+   88:47   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_341gim                       
+   16:4    severity:1   Implicit visibility level                    SOLIDITY_VISIBILITY_b51ce0                           
+   18:4    severity:1   Implicit visibility level                    SOLIDITY_VISIBILITY_b51ce0                           
+   86:4    severity:1   Implicit visibility level                    SOLIDITY_VISIBILITY_b51ce0                           
+.\0x4e73b32ed6c35f570686b89848e5f39f20ecc106.sol
+   54:26   severity:2   Use of call function with no data            SOLIDITY_CALL_WITHOUT_DATA_om991k                    
+   7:16    severity:1   Compiler version not fixed                   SOLIDITY_PRAGMAS_VERSION_23fc32                      
+   19:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   26:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   33:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   47:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   54:26   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_83k1no                       
+   63:4    severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_91h3sa                       
+   87:47   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_341gim                       
+   15:4    severity:1   Implicit visibility level                    SOLIDITY_VISIBILITY_b51ce0                           
+   17:4    severity:1   Implicit visibility level                    SOLIDITY_VISIBILITY_b51ce0                           
+   85:4    severity:1   Implicit visibility level                    SOLIDITY_VISIBILITY_b51ce0                           
+.\0x561eac93c92360949ab1f1403323e6db345cbf31.sol
+   54:26   severity:2   Use of call function with no data            SOLIDITY_CALL_WITHOUT_DATA_om991k                    
+   22:23   severity:1   Deprecated constructions                     SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a             
+   29:23   severity:1   Deprecated constructions                     SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a             
+   7:16    severity:1   Compiler version not fixed                   SOLIDITY_PRAGMAS_VERSION_23fc32                      
+   22:8    severity:1   Revert inside the if-operator                SOLIDITY_REVERT_REQUIRE_c56b12                       
+   29:8    severity:1   Revert inside the if-operator                SOLIDITY_REVERT_REQUIRE_c56b12                       
+   19:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   26:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   33:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   47:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   54:26   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_83k1no                       
+   63:4    severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_91h3sa                       
+   87:47   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_341gim                       
+   15:4    severity:1   Implicit visibility level                    SOLIDITY_VISIBILITY_b51ce0                           
+   17:4    severity:1   Implicit visibility level                    SOLIDITY_VISIBILITY_b51ce0                           
+   85:4    severity:1   Implicit visibility level                    SOLIDITY_VISIBILITY_b51ce0                           
+.\0x627fa62ccbb1c1b04ffaecd72a53e37fc0e17839.sol
+   94:21   severity:2   Use of call function with no data            SOLIDITY_CALL_WITHOUT_DATA_om991k                    
+   43:26   severity:1   Deprecated constructions                     SOLIDITY_DEPRECATED_CONSTRUCTIONS_187b5a             
+   7:16    severity:1   Compiler version not fixed                   SOLIDITY_PRAGMAS_VERSION_23fc32                      
+   43:14   severity:3   Unchecked low-level call                     SOLIDITY_UNCHECKED_CALL_f39eed                       
+   14:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   21:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   39:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   53:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   75:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   86:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   43:14   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_83k1no                       
+   94:21   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_83k1no                       
+   60:4    severity:1   Implicit visibility level                    SOLIDITY_VISIBILITY_910067                           
+   66:4    severity:1   Implicit visibility level                    SOLIDITY_VISIBILITY_910067                           
+   11:4    severity:1   Implicit visibility level                    SOLIDITY_VISIBILITY_b51ce0                           
+   12:4    severity:1   Implicit visibility level                    SOLIDITY_VISIBILITY_b51ce0                           
+   38:4    severity:1   Implicit visibility level                    SOLIDITY_VISIBILITY_b51ce0                           
+.\0x7541b76cb60f4c60af330c208b0623b7f54bf615.sol
+   29:26   severity:2   Use of call function with no data            SOLIDITY_CALL_WITHOUT_DATA_om991k                    
+   7:16    severity:1   Compiler version not fixed                   SOLIDITY_PRAGMAS_VERSION_23fc32                      
+   21:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   56:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   29:26   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_83k1no                       
+   38:4    severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_91h3sa                       
+   76:47   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_341gim                       
+   52:4    severity:1   Implicit visibility level                    SOLIDITY_VISIBILITY_b51ce0                           
+   74:4    severity:1   Implicit visibility level                    SOLIDITY_VISIBILITY_b51ce0                           
+.\0x7a8721a9d64c74da899424c1b52acbf58ddc9782.sol
+   52:26   severity:2   Use of call function with no data            SOLIDITY_CALL_WITHOUT_DATA_om991k                    
+   31:4    severity:2   Overpowered role                             SOLIDITY_OVERPOWERED_ROLE_j83hf7                     
+   7:16    severity:1   Compiler version not fixed                   SOLIDITY_PRAGMAS_VERSION_23fc32                      
+   19:16   severity:2   Using tx.origin for authorization            SOLIDITY_TX_ORIGIN_12e802                            
+   36:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   52:26   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_83k1no                       
+   60:15   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_91h3sa                       
+   79:47   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_341gim                       
+   23:4    severity:1   Implicit visibility level                    SOLIDITY_VISIBILITY_910067                           
+   31:4    severity:1   Implicit visibility level                    SOLIDITY_VISIBILITY_910067                           
+   47:4    severity:1   Implicit visibility level                    SOLIDITY_VISIBILITY_910067                           
+   16:4    severity:1   Implicit visibility level                    SOLIDITY_VISIBILITY_b51ce0                           
+   77:4    severity:1   Implicit visibility level                    SOLIDITY_VISIBILITY_b51ce0                           
+.\0x7b368c4e805c3870b6c49a3f1f49f69af8662cf3.sol
+   29:26   severity:2   Use of call function with no data            SOLIDITY_CALL_WITHOUT_DATA_om991k                    
+   7:16    severity:1   Compiler version not fixed                   SOLIDITY_PRAGMAS_VERSION_23fc32                      
+   21:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   56:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   29:26   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_83k1no                       
+   38:4    severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_91h3sa                       
+   76:47   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_341gim                       
+   52:4    severity:1   Implicit visibility level                    SOLIDITY_VISIBILITY_b51ce0                           
+   74:4    severity:1   Implicit visibility level                    SOLIDITY_VISIBILITY_b51ce0                           
+.\0x8c7777c45481dba411450c228cb692ac3d550344.sol
+   41:26   severity:2   Use of call function with no data            SOLIDITY_CALL_WITHOUT_DATA_om991k                    
+   7:16    severity:1   Compiler version not fixed                   SOLIDITY_PRAGMAS_VERSION_23fc32                      
+   17:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   23:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   34:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   41:26   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_83k1no                       
+   49:15   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_91h3sa                       
+   68:47   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_341gim                       
+   13:4    severity:1   Implicit visibility level                    SOLIDITY_VISIBILITY_b51ce0                           
+   66:4    severity:1   Implicit visibility level                    SOLIDITY_VISIBILITY_b51ce0                           
+.\18145.sol
+   4:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   4:49   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_341gim                       
+.\18430.sol
+   23:55   severity:1   Use of call function with no data            SOLIDITY_CALL_WITHOUT_DATA_lr991l                    
+   11:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   23:55   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_83k1no                       
+.\18438.sol
+   7:29   severity:1   Use of call function with no data            SOLIDITY_CALL_WITHOUT_DATA_lr991l                    
+   6:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   7:29   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_83k1no                       
+.\18509.sol
+   9:20   severity:2   Use of call function with no data            SOLIDITY_CALL_WITHOUT_DATA_om991k                    
+   7:1    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   9:20   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_83k1no                       
+   5:1    severity:1   Implicit visibility level                    SOLIDITY_VISIBILITY_b51ce0                           
+.\18510.sol
+   15:20   severity:2   Use of call function with no data            SOLIDITY_CALL_WITHOUT_DATA_om991k                    
+   13:1    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   15:20   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_83k1no                       
+   5:1     severity:1   Implicit visibility level                    SOLIDITY_VISIBILITY_b51ce0                           
+.\18771.sol
+   5:26   severity:2   Use of call function with no data            SOLIDITY_CALL_WITHOUT_DATA_om991k                    
+   4:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   5:26   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_83k1no                       
+.\19128.sol
+   11:13   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k   
+   11:13   severity:3   Unchecked low-level call            SOLIDITY_UNCHECKED_CALL_f39eed      
+   11:13   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no      
+.\19129.sol
+   17:13   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k   
+   17:13   severity:3   Unchecked low-level call            SOLIDITY_UNCHECKED_CALL_f39eed      
+   17:13   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no      
+.\19925.sol
+   10:16   severity:3   Unchecked low-level call                     SOLIDITY_UNCHECKED_CALL_f39eed                       
+   6:1     severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   6:48    severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_341gim                       
+   4:4     severity:1   Implicit visibility level                    SOLIDITY_VISIBILITY_b51ce0                           
+.\21241.sol
+   7:23   severity:2   Use of call function with no data            SOLIDITY_CALL_WITHOUT_DATA_om991k                    
+   4:1    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   7:23   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_83k1no                       
+.\21697.sol
+   2:0   severity:3   Locked money                                 SOLIDITY_LOCKED_MONEY_30281d                         
+   4:4   severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+.\21886.sol
+   6:31   severity:2   Use of call function with no data            SOLIDITY_CALL_WITHOUT_DATA_om991k                    
+   4:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   6:31   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_83k1no                       
+.\22074.sol
+   2:0   severity:3   Locked money                                 SOLIDITY_LOCKED_MONEY_30281d                         
+   7:4   severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+.\22075.sol
+   2:0    severity:3   Locked money                                 SOLIDITY_LOCKED_MONEY_30281d                         
+   13:4   severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+.\22247.sol
+   8:26   severity:2   Use of call function with no data            SOLIDITY_CALL_WITHOUT_DATA_om991k                    
+   6:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   8:26   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_83k1no                       
+.\22416.sol
+   8:21   severity:2   Use of call function with no data            SOLIDITY_CALL_WITHOUT_DATA_om991k                    
+   6:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   8:21   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_83k1no                       
+.\22635.sol
+   10:23   severity:2   Use of call function with no data            SOLIDITY_CALL_WITHOUT_DATA_om991k                    
+   6:4     severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   10:23   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_83k1no                       
+   4:4     severity:1   Implicit visibility level                    SOLIDITY_VISIBILITY_b51ce0                           
+.\22636.sol
+   16:23   severity:2   Use of call function with no data            SOLIDITY_CALL_WITHOUT_DATA_om991k                    
+   12:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   16:23   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_83k1no                       
+   4:4     severity:1   Implicit visibility level                    SOLIDITY_VISIBILITY_b51ce0                           
+   6:4     severity:1   Implicit visibility level                    SOLIDITY_VISIBILITY_b51ce0                           
+.\23792.sol
+   6:4   severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   4:4   severity:1   Implicit visibility level                    SOLIDITY_VISIBILITY_b51ce0                           
+.\23793.sol
+   12:4   severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   4:4    severity:1   Implicit visibility level                    SOLIDITY_VISIBILITY_b51ce0                           
+   6:4    severity:1   Implicit visibility level                    SOLIDITY_VISIBILITY_b51ce0                           
+.\24161.sol
+   8:23   severity:2   Use of call function with no data            SOLIDITY_CALL_WITHOUT_DATA_om991k                    
+   6:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   8:23   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_83k1no                       
+.\24196.sol
+   5:13   severity:3   Unchecked low-level call         SOLIDITY_UNCHECKED_CALL_f39eed   
+   4:48   severity:1   Upgrade code to Solidity 0.5.x   SOLIDITY_UPGRADE_TO_050_341gim   
+   4:4    severity:1   Implicit visibility level        SOLIDITY_VISIBILITY_910067       
+.\24369.sol
+   4:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   4:30   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_341gim                       
+.\24648.sol
+   9:24   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k   
+   9:8    severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12      
+   9:24   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no      
+   6:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067          
+   4:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_b51ce0          
+.\24649.sol
+   15:24   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k   
+   15:8    severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12      
+   15:24   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no      
+   12:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067          
+   4:4     severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_b51ce0          
+.\25808.sol
+   6:17   severity:2   Use of call function with no data            SOLIDITY_CALL_WITHOUT_DATA_om991k                    
+   6:17   severity:3   Unchecked low-level call                     SOLIDITY_UNCHECKED_CALL_f39eed                       
+   4:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   6:17   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_83k1no                       
+.\26188.sol
+   2:0   severity:3   Locked money                                 SOLIDITY_LOCKED_MONEY_30281d                         
+   6:4   severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+.\26523.sol
+   13:27   severity:2   Use of call function with no data            SOLIDITY_CALL_WITHOUT_DATA_om991k                    
+   6:4     severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   13:27   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_83k1no                       
+   4:4     severity:1   Implicit visibility level                    SOLIDITY_VISIBILITY_b51ce0                           
+.\26742.sol
+   9:22   severity:2   Use of call function with no data            SOLIDITY_CALL_WITHOUT_DATA_om991k                    
+   6:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   9:22   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_83k1no                       
+.\26743.sol
+   15:22   severity:2   Use of call function with no data            SOLIDITY_CALL_WITHOUT_DATA_om991k                    
+   12:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   15:22   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_83k1no                       
+   6:4     severity:1   Implicit visibility level                    SOLIDITY_VISIBILITY_b51ce0                           
+.\27121.sol
+   13:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   15:12   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_441gim                       
+.\27159.sol
+   5:2    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   5:32   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_341gim                       
+   4:2    severity:1   Implicit visibility level                    SOLIDITY_VISIBILITY_b51ce0                           
+.\27164.sol
+   7:18   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k          
+   7:42   severity:1   Deprecated constructions            SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   7:7    severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12             
+   7:18   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no             
+   6:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067                 
+   4:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_b51ce0                 
+.\27263.sol
+   8:18   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k          
+   7:39   severity:1   Deprecated constructions            SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   8:42   severity:1   Deprecated constructions            SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   7:7    severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12             
+   8:7    severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12             
+   8:18   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no             
+   6:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067                 
+   4:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_b51ce0                 
+.\27327.sol
+   5:19   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k          
+   5:41   severity:1   Deprecated constructions            SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   5:8    severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12             
+   5:19   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no             
+   4:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067                 
+.\27334.sol
+   9:27   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k   
+   9:27   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no      
+   6:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067          
+   4:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_b51ce0          
+.\27603.sol
+   8:12   severity:3   Unchecked low-level call                     SOLIDITY_UNCHECKED_CALL_f39eed                       
+   6:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   6:33   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_341gim                       
+.\28974.sol
+   8:23   severity:2   Use of call function with no data            SOLIDITY_CALL_WITHOUT_DATA_om991k                    
+   8:8    severity:1   Revert inside the if-operator                SOLIDITY_REVERT_REQUIRE_c56b12                       
+   6:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   8:23   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_83k1no                       
+.\29089.sol
+   8:26   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k   
+   8:26   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no      
+   6:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067          
+.\29090.sol
+   14:26   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k   
+   14:26   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no      
+   12:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067          
+   6:4     severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_b51ce0          
+.\29130.sol
+   5:16   severity:2   Use of call function with no data            SOLIDITY_CALL_WITHOUT_DATA_om991k                    
+   4:2    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   5:16   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_83k1no                       
+.\29154.sol
+   4:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   4:55   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_341gim                       
+.\29590.sol
+   12:4   severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+.\29948.sol
+   13:4   severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+.\29983.sol
+   6:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   6:61   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_341gim                       
+   4:4    severity:1   Implicit visibility level                    SOLIDITY_VISIBILITY_b51ce0                           
+.\30046.sol
+   13:4   severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+.\30101.sol
+   10:29   severity:2   Use of call function with no data            SOLIDITY_CALL_WITHOUT_DATA_om991k                    
+   6:4     severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   10:29   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_83k1no                       
+.\30102.sol
+   16:29   severity:2   Use of call function with no data            SOLIDITY_CALL_WITHOUT_DATA_om991k                    
+   12:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   16:29   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_83k1no                       
+   5:4     severity:1   Implicit visibility level                    SOLIDITY_VISIBILITY_b51ce0                           
+.\30254.sol
+   5:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   5:61   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_341gim                       
+   3:4    severity:1   Implicit visibility level                    SOLIDITY_VISIBILITY_b51ce0                           
+.\30255.sol
+   11:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   11:61   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_341gim                       
+   3:4     severity:1   Implicit visibility level                    SOLIDITY_VISIBILITY_b51ce0                           
+.\30337.sol
+   9:24   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k                     
+   9:49   severity:1   Deprecated constructions            SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a              
+   4:32   severity:1   Private modifier                    SOLIDITY_PRIVATE_MODIFIER_DOES_NOT_HIDE_DATA_5616b2   
+   9:8    severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12                        
+   9:24   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no                        
+.\30338.sol
+   15:24   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k                     
+   15:49   severity:1   Deprecated constructions            SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a              
+   4:32    severity:1   Private modifier                    SOLIDITY_PRIVATE_MODIFIER_DOES_NOT_HIDE_DATA_5616b2   
+   15:8    severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12                        
+   15:24   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no                        
+   6:4     severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_b51ce0                            
+.\30460.sol
+   8:15   severity:2   Use of call function with no data            SOLIDITY_CALL_WITHOUT_DATA_om991k                    
+   8:15   severity:3   Unchecked low-level call                     SOLIDITY_UNCHECKED_CALL_f39eed                       
+   6:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   8:15   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_83k1no                       
+.\31237.sol
+   4:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   4:62   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_341gim                       
+.\31238.sol
+   10:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   10:62   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_341gim                       
+   4:4     severity:1   Implicit visibility level                    SOLIDITY_VISIBILITY_b51ce0                           
+.\31497.sol
+   8:12   severity:3   Unchecked low-level call                     SOLIDITY_UNCHECKED_CALL_f39eed                       
+   6:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   6:33   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_341gim                       
+.\31565.sol
+   10:29   severity:2   Use of call function with no data            SOLIDITY_CALL_WITHOUT_DATA_om991k                    
+   6:4     severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   10:29   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_83k1no                       
+.\32522.sol
+   5:17   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k   
+   5:8    severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12      
+   5:17   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no      
+   4:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067          
+.\33450.sol
+   13:4   severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+.\33512.sol
+   8:12   severity:3   Unchecked low-level call                     SOLIDITY_UNCHECKED_CALL_f39eed                       
+   6:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   6:33   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_341gim                       
+.\34432.sol
+   8:28   severity:2   Use of call function with no data            SOLIDITY_CALL_WITHOUT_DATA_om991k                    
+   6:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   8:28   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_83k1no                       
+.\34526.sol
+   13:26   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k   
+   9:2     severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12      
+   10:2    severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12      
+   13:3    severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12      
+   13:26   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no      
+   8:1     severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067          
+.\34668.sol
+   13:37   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k          
+   13:54   severity:1   Deprecated constructions            SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   13:8    severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12             
+   13:37   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no             
+   12:8    severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_441gim             
+.\34904.sol
+   13:4   severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+.\35208.sol
+   4:35   severity:1   Upgrade code to Solidity 0.5.x   SOLIDITY_UPGRADE_TO_050_341gim   
+   4:4    severity:1   Implicit visibility level        SOLIDITY_VISIBILITY_910067       
+.\35661.sol
+   11:22   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k          
+   8:36    severity:1   Deprecated constructions            SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   11:45   severity:1   Deprecated constructions            SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   8:8     severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12             
+   11:8    severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12             
+   11:22   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no             
+   7:4     severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067                 
+   5:4     severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_b51ce0                 
+.\35662.sol
+   18:22   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k          
+   15:36   severity:1   Deprecated constructions            SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   18:45   severity:1   Deprecated constructions            SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   15:8    severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12             
+   18:8    severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12             
+   18:22   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no             
+   14:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067                 
+   5:4     severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_b51ce0                 
+   6:4     severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_b51ce0                 
+   8:4     severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_b51ce0                 
+.\35713.sol
+   7:20   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k   
+   7:8    severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12      
+   7:20   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no      
+   6:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067          
+.\35714.sol
+   13:20   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k   
+   13:8    severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12      
+   13:20   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no      
+   12:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067          
+.\35806.sol
+   9:27   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k   
+   9:27   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no      
+   6:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067          
+.\35807.sol
+   15:27   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k   
+   15:27   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no      
+   12:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067          
+   6:4     severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_b51ce0          
+.\35878.sol
+   2:0    severity:3   Locked money                     SOLIDITY_LOCKED_MONEY_30281d     
+   6:16   severity:1   Upgrade code to Solidity 0.5.x   SOLIDITY_UPGRADE_TO_050_91h3sa   
+.\35951.sol
+   7:22   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k   
+   7:22   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no      
+   6:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067          
+.\36481.sol
+   14:21   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k   
+   14:8    severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12      
+   14:21   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no      
+   9:4     severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067          
+   7:4     severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_b51ce0          
+.\36563.sol
+   4:59   severity:1   Upgrade code to Solidity 0.5.x   SOLIDITY_UPGRADE_TO_050_341gim   
+   4:4    severity:1   Implicit visibility level        SOLIDITY_VISIBILITY_910067       
+.\36836.sol
+   10:23   severity:2   Use of call function with no data            SOLIDITY_CALL_WITHOUT_DATA_om991k                    
+   6:4     severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   10:23   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_83k1no                       
+   4:4     severity:1   Implicit visibility level                    SOLIDITY_VISIBILITY_b51ce0                           
+.\37645.sol
+   7:6    severity:1   Checking for strict balance equality   SOLIDITY_BALANCE_EQUALITY_5094ad           
+   8:25   severity:2   Use of call function with no data      SOLIDITY_CALL_WITHOUT_DATA_om991k          
+   7:25   severity:1   Deprecated constructions               SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   8:53   severity:1   Deprecated constructions               SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   7:2    severity:1   Revert inside the if-operator          SOLIDITY_REVERT_REQUIRE_c56b12             
+   8:2    severity:1   Revert inside the if-operator          SOLIDITY_REVERT_REQUIRE_c56b12             
+   8:25   severity:1   Upgrade code to Solidity 0.5.x         SOLIDITY_UPGRADE_TO_050_83k1no             
+   6:4    severity:1   Implicit visibility level              SOLIDITY_VISIBILITY_910067                 
+.\37646.sol
+   14:6    severity:1   Checking for strict balance equality   SOLIDITY_BALANCE_EQUALITY_5094ad           
+   15:25   severity:2   Use of call function with no data      SOLIDITY_CALL_WITHOUT_DATA_om991k          
+   14:25   severity:1   Deprecated constructions               SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   15:53   severity:1   Deprecated constructions               SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   14:2    severity:1   Revert inside the if-operator          SOLIDITY_REVERT_REQUIRE_c56b12             
+   15:2    severity:1   Revert inside the if-operator          SOLIDITY_REVERT_REQUIRE_c56b12             
+   15:25   severity:1   Upgrade code to Solidity 0.5.x         SOLIDITY_UPGRADE_TO_050_83k1no             
+   13:4    severity:1   Implicit visibility level              SOLIDITY_VISIBILITY_910067                 
+   7:1     severity:1   Implicit visibility level              SOLIDITY_VISIBILITY_b51ce0                 
+.\37676.sol
+   5:38   severity:1   Deprecated constructions         SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   5:2    severity:1   Revert inside the if-operator    SOLIDITY_REVERT_REQUIRE_c56b12             
+   4:41   severity:1   Upgrade code to Solidity 0.5.x   SOLIDITY_UPGRADE_TO_050_341gim             
+   4:1    severity:1   Implicit visibility level        SOLIDITY_VISIBILITY_910067                 
+.\37707.sol
+   10:23   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k   
+   10:23   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no      
+   7:4     severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067          
+.\37708.sol
+   16:23   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k   
+   16:23   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no      
+   13:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067          
+   7:4     severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_b51ce0          
+.\37836.sol
+   6:4   severity:1   Implicit visibility level   SOLIDITY_VISIBILITY_910067   
+   4:1   severity:1   Implicit visibility level   SOLIDITY_VISIBILITY_b51ce0   
+.\37891.sol
+   10:34   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k   
+   10:34   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no      
+   6:4     severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067          
+.\38057.sol
+   9:24   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k   
+   9:8    severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12      
+   9:24   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no      
+   6:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067          
+.\38250.sol
+   7:6    severity:1   Checking for strict balance equality   SOLIDITY_BALANCE_EQUALITY_5094ad           
+   8:25   severity:2   Use of call function with no data      SOLIDITY_CALL_WITHOUT_DATA_om991k          
+   7:25   severity:1   Deprecated constructions               SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   8:53   severity:1   Deprecated constructions               SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   7:2    severity:1   Revert inside the if-operator          SOLIDITY_REVERT_REQUIRE_c56b12             
+   8:2    severity:1   Revert inside the if-operator          SOLIDITY_REVERT_REQUIRE_c56b12             
+   8:25   severity:1   Upgrade code to Solidity 0.5.x         SOLIDITY_UPGRADE_TO_050_83k1no             
+   6:1    severity:1   Implicit visibility level              SOLIDITY_VISIBILITY_910067                 
+.\38420.sol
+   8:17   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k          
+   8:54   severity:1   Deprecated constructions            SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   8:8    severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12             
+   8:17   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no             
+   7:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067                 
+.\38651.sol
+   10:24   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k          
+   10:46   severity:1   Deprecated constructions            SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   10:8    severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12             
+   10:24   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no             
+   6:4     severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067                 
+.\38828.sol
+   11:22   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k          
+   8:36    severity:1   Deprecated constructions            SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   11:45   severity:1   Deprecated constructions            SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   8:8     severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12             
+   11:8    severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12             
+   11:22   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no             
+   7:4     severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067                 
+   5:4     severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_b51ce0                 
+.\38876.sol
+   9:19   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k          
+   8:40   severity:1   Deprecated constructions            SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   9:47   severity:1   Deprecated constructions            SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   8:8    severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12             
+   9:8    severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12             
+   9:19   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no             
+   7:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067                 
+.\38888.sol
+   7:19   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k          
+   7:47   severity:1   Deprecated constructions            SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   7:8    severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12             
+   7:19   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no             
+   6:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067                 
+.\39019.sol
+   12:78   severity:1   Deprecated constructions        SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   12:8    severity:1   Revert inside the if-operator   SOLIDITY_REVERT_REQUIRE_c56b12             
+   10:4    severity:1   Implicit visibility level       SOLIDITY_VISIBILITY_910067                 
+   7:4     severity:1   Implicit visibility level       SOLIDITY_VISIBILITY_b51ce0                 
+   8:4     severity:1   Implicit visibility level       SOLIDITY_VISIBILITY_b51ce0                 
+.\39032.sol
+   5:13   severity:3   Unchecked low-level call         SOLIDITY_UNCHECKED_CALL_f39eed   
+   4:47   severity:1   Upgrade code to Solidity 0.5.x   SOLIDITY_UPGRADE_TO_050_341gim   
+   4:4    severity:1   Implicit visibility level        SOLIDITY_VISIBILITY_910067       
+.\39151.sol
+   8:24   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k          
+   7:44   severity:1   Deprecated constructions            SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   8:46   severity:1   Deprecated constructions            SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   7:8    severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12             
+   8:8    severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12             
+   8:24   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no             
+   6:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067                 
+.\39199.sol
+   7:44   severity:1   Deprecated constructions         SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   7:8    severity:1   Revert inside the if-operator    SOLIDITY_REVERT_REQUIRE_c56b12             
+   6:48   severity:1   Upgrade code to Solidity 0.5.x   SOLIDITY_UPGRADE_TO_050_341gim             
+   6:4    severity:1   Implicit visibility level        SOLIDITY_VISIBILITY_910067                 
+.\39248.sol
+   17:88   severity:1   Deprecated constructions         SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   17:8    severity:1   Revert inside the if-operator    SOLIDITY_REVERT_REQUIRE_c56b12             
+   14:50   severity:1   Upgrade code to Solidity 0.5.x   SOLIDITY_UPGRADE_TO_050_341gim             
+   15:8    severity:1   Upgrade code to Solidity 0.5.x   SOLIDITY_UPGRADE_TO_050_441gim             
+   14:4    severity:1   Implicit visibility level        SOLIDITY_VISIBILITY_910067                 
+.\39268.sol
+   12:39   severity:2   Use of call function with no data            SOLIDITY_CALL_WITHOUT_DATA_om991k                    
+   12:69   severity:1   Deprecated constructions                     SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a             
+   12:12   severity:1   Revert inside the if-operator                SOLIDITY_REVERT_REQUIRE_c56b12                       
+   10:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   12:39   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_83k1no                       
+.\39269.sol
+   15:4   severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+.\39327.sol
+   19:72   severity:1   Deprecated constructions         SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   19:12   severity:1   Revert inside the if-operator    SOLIDITY_REVERT_REQUIRE_c56b12             
+   15:41   severity:1   Upgrade code to Solidity 0.5.x   SOLIDITY_UPGRADE_TO_050_341gim             
+   16:8    severity:1   Upgrade code to Solidity 0.5.x   SOLIDITY_UPGRADE_TO_050_441gim             
+   15:4    severity:1   Implicit visibility level        SOLIDITY_VISIBILITY_910067                 
+.\39341.sol
+   5:13   severity:3   Unchecked low-level call         SOLIDITY_UNCHECKED_CALL_f39eed   
+   4:48   severity:1   Upgrade code to Solidity 0.5.x   SOLIDITY_UPGRADE_TO_050_341gim   
+   4:4    severity:1   Implicit visibility level        SOLIDITY_VISIBILITY_910067       
+.\39644.sol
+   9:24   severity:1   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_lr991l          
+   9:60   severity:1   Deprecated constructions            SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   9:8    severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12             
+   9:24   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no             
+   6:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067                 
+   4:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_b51ce0                 
+.\39664.sol
+   16:30   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k          
+   10:33   severity:1   Deprecated constructions            SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   16:79   severity:1   Deprecated constructions            SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   10:8    severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12             
+   16:10   severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12             
+   16:30   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no             
+   14:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067                 
+.\39684.sol
+   8:49   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k          
+   8:74   severity:1   Deprecated constructions            SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   2:0    severity:3   Locked money                        SOLIDITY_LOCKED_MONEY_30281d               
+   8:12   severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12             
+   8:49   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no             
+   6:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067                 
+.\39705.sol
+   7:32   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k   
+   7:32   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no      
+   6:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067          
+.\39749.sol
+   11:33   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k   
+   11:33   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no      
+.\39750.sol
+   17:33   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k   
+   17:33   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no      
+   6:4     severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_b51ce0          
+.\39777.sol
+   19:28   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k          
+   12:34   severity:1   Deprecated constructions            SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   17:48   severity:1   Deprecated constructions            SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   19:50   severity:1   Deprecated constructions            SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   12:8    severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12             
+   17:8    severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12             
+   19:8    severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12             
+   19:28   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no             
+   16:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067                 
+.\39778.sol
+   13:28   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k          
+   11:48   severity:1   Deprecated constructions            SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   13:50   severity:1   Deprecated constructions            SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   11:8    severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12             
+   13:8    severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12             
+   13:28   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no             
+   10:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067                 
+.\39817.sol
+   5:26   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k   
+   5:26   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no      
+   4:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067          
+.\39866.sol
+   9:27   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k          
+   9:52   severity:1   Deprecated constructions            SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   9:8    severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12             
+   9:27   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no             
+   8:17   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_341gim             
+   8:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067                 
+.\39867.sol
+   15:27   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k          
+   15:52   severity:1   Deprecated constructions            SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   15:8    severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12             
+   15:27   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no             
+   14:17   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_341gim             
+   14:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067                 
+.\39912.sol
+   7:31   severity:1   Deprecated constructions                     SOLIDITY_DEPRECATED_CONSTRUCTIONS_187b5a             
+   8:55   severity:1   Deprecated constructions                     SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a             
+   8:8    severity:1   Revert inside the if-operator                SOLIDITY_REVERT_REQUIRE_c56b12                       
+   6:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+.\39934.sol
+   8:20   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k          
+   8:39   severity:1   Deprecated constructions            SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   8:8    severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12             
+   8:20   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no             
+   7:8    severity:2   Unsafe type inference               SOLIDITY_VAR_d28aa7                        
+   6:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067                 
+.\40089.sol
+   9:24   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k                     
+   9:49   severity:1   Deprecated constructions            SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a              
+   4:32   severity:1   Private modifier                    SOLIDITY_PRIVATE_MODIFIER_DOES_NOT_HIDE_DATA_5616b2   
+   9:8    severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12                        
+   9:24   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no                        
+.\40090.sol
+   4:4   severity:1   Implicit visibility level   SOLIDITY_VISIBILITY_b51ce0   
+.\40092.sol
+   11:24   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k                     
+   11:49   severity:1   Deprecated constructions            SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a              
+   4:12    severity:1   Private modifier                    SOLIDITY_PRIVATE_MODIFIER_DOES_NOT_HIDE_DATA_5616b2   
+   5:32    severity:1   Private modifier                    SOLIDITY_PRIVATE_MODIFIER_DOES_NOT_HIDE_DATA_5616b2   
+   11:8    severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12                        
+   11:24   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no                        
+.\40242.sol
+   5:13   severity:3   Unchecked low-level call         SOLIDITY_UNCHECKED_CALL_f39eed   
+   4:48   severity:1   Upgrade code to Solidity 0.5.x   SOLIDITY_UPGRADE_TO_050_341gim   
+   4:4    severity:1   Implicit visibility level        SOLIDITY_VISIBILITY_910067       
+.\40249.sol
+   10:12   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k          
+   10:47   severity:1   Deprecated constructions            SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   10:2    severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12             
+   10:12   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no             
+   8:1     severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067                 
+   4:1     severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_b51ce0                 
+   5:4     severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_b51ce0                 
+   6:1     severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_b51ce0                 
+.\40299.sol
+   9:24   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k          
+   9:54   severity:1   Deprecated constructions            SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   9:8    severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12             
+   9:24   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no             
+   7:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067                 
+.\40336.sol
+   9:24   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k          
+   7:44   severity:1   Deprecated constructions            SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   9:46   severity:1   Deprecated constructions            SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   7:8    severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12             
+   9:8    severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12             
+   9:24   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no             
+   6:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067                 
+   4:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_b51ce0                 
+.\40340.sol
+   15:23   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k   
+   15:23   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no      
+   11:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067          
+   8:4     severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_b51ce0          
+   9:4     severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_b51ce0          
+.\40342.sol
+   8:45    severity:1   Hardcoded address                   SOLIDITY_ADDRESS_HARDCODED_adc165          
+   9:19    severity:1   Hardcoded address                   SOLIDITY_ADDRESS_HARDCODED_adc165          
+   15:23   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k          
+   3:4     severity:1   Deprecated constructions            SOLIDITY_DEPRECATED_CONSTRUCTIONS_28fa69   
+   15:23   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no             
+   3:4     severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067                 
+   11:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067                 
+   8:4     severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_b51ce0                 
+   9:4     severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_b51ce0                 
+.\40353.sol
+   16:12   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k          
+   10:37   severity:1   Deprecated constructions            SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   16:47   severity:1   Deprecated constructions            SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   10:5    severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12             
+   16:2    severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12             
+   16:12   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no             
+   14:1    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067                 
+   4:1     severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_b51ce0                 
+   5:4     severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_b51ce0                 
+   6:1     severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_b51ce0                 
+   7:1     severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_b51ce0                 
+.\40357.sol
+   8:45    severity:1   Hardcoded address                   SOLIDITY_ADDRESS_HARDCODED_adc165          
+   12:27   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k          
+   3:4     severity:1   Deprecated constructions            SOLIDITY_DEPRECATED_CONSTRUCTIONS_28fa69   
+   12:27   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no             
+   3:4     severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067                 
+   10:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067                 
+   8:4     severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_b51ce0                 
+.\40366.sol
+   5:44   severity:1   Deprecated constructions         SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   5:8    severity:1   Revert inside the if-operator    SOLIDITY_REVERT_REQUIRE_c56b12             
+   4:48   severity:1   Upgrade code to Solidity 0.5.x   SOLIDITY_UPGRADE_TO_050_341gim             
+   4:4    severity:1   Implicit visibility level        SOLIDITY_VISIBILITY_910067                 
+.\40413.sol
+   5:27   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k          
+   6:17   severity:1   Deprecated constructions            SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   6:2    severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12             
+   5:27   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no             
+   4:1    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067                 
+.\40415.sol
+   8:24   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k          
+   7:44   severity:1   Deprecated constructions            SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   8:46   severity:1   Deprecated constructions            SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   7:8    severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12             
+   8:8    severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12             
+   8:24   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no             
+   6:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067                 
+   4:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_b51ce0                 
+.\40425.sol
+   10:28   severity:2   Use of call function with no data            SOLIDITY_CALL_WITHOUT_DATA_om991k                     
+   10:53   severity:1   Deprecated constructions                     SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a              
+   4:12    severity:1   Private modifier                             SOLIDITY_PRIVATE_MODIFIER_DOES_NOT_HIDE_DATA_5616b2   
+   10:12   severity:1   Revert inside the if-operator                SOLIDITY_REVERT_REQUIRE_c56b12                        
+   6:4     severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1    
+   10:28   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_83k1no                        
+.\40499.sol
+   7:4   severity:1   Implicit visibility level   SOLIDITY_VISIBILITY_910067   
+   5:4   severity:1   Implicit visibility level   SOLIDITY_VISIBILITY_b51ce0   
+.\40500.sol
+   5:23   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k   
+   5:23   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no      
+   4:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067          
+.\40732.sol
+   7:27   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k   
+   7:27   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no      
+   6:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067          
+.\40733.sol
+   8:22   severity:2   Use of call function with no data            SOLIDITY_CALL_WITHOUT_DATA_om991k                     
+   8:65   severity:1   Deprecated constructions                     SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a              
+   3:30   severity:1   Private modifier                             SOLIDITY_PRIVATE_MODIFIER_DOES_NOT_HIDE_DATA_5616b2   
+   8:8    severity:1   Revert inside the if-operator                SOLIDITY_REVERT_REQUIRE_c56b12                        
+   5:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1    
+   8:22   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_83k1no                        
+.\40734.sol
+   9:26   severity:2   Use of call function with no data            SOLIDITY_CALL_WITHOUT_DATA_om991k                     
+   4:30   severity:1   Private modifier                             SOLIDITY_PRIVATE_MODIFIER_DOES_NOT_HIDE_DATA_5616b2   
+   6:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1    
+   9:26   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_83k1no                        
+.\40735.sol
+   8:23   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k   
+   8:23   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no      
+   6:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067          
+.\40736.sol
+   10:27   severity:2   Use of call function with no data            SOLIDITY_CALL_WITHOUT_DATA_om991k                    
+   7:4     severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   10:27   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_83k1no                       
+.\40737.sol
+   8:24   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k          
+   8:48   severity:1   Deprecated constructions            SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   8:8    severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12             
+   8:24   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no             
+   5:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067                 
+   3:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_b51ce0                 
+.\40741.sol
+   8:36   severity:2   Use of call function with no data            SOLIDITY_CALL_WITHOUT_DATA_om991k                    
+   6:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   8:36   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_83k1no                       
+.\40742.sol
+   7:25   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k          
+   7:68   severity:1   Deprecated constructions            SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   7:8    severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12             
+   7:25   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no             
+   6:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067                 
+   4:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_b51ce0                 
+.\40745.sol
+   8:21   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k   
+   8:21   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no      
+   6:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067          
+.\40746.sol
+   8:27   severity:2   Use of call function with no data            SOLIDITY_CALL_WITHOUT_DATA_om991k                    
+   8:52   severity:1   Deprecated constructions                     SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a             
+   8:12   severity:1   Revert inside the if-operator                SOLIDITY_REVERT_REQUIRE_c56b12                       
+   6:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   8:27   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_83k1no                       
+.\40747.sol
+   10:26   severity:2   Use of call function with no data            SOLIDITY_CALL_WITHOUT_DATA_om991k                    
+   8:4     severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   10:26   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_83k1no                       
+   6:4     severity:1   Implicit visibility level                    SOLIDITY_VISIBILITY_b51ce0                           
+.\40748.sol
+   6:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   6:55   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_341gim                       
+.\40749.sol
+   7:27   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k   
+   7:27   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no      
+   6:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067          
+.\40750.sol
+   8:19   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k   
+   8:19   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no      
+   6:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067          
+   4:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_b51ce0          
+.\40751.sol
+   9:26   severity:2   Use of call function with no data            SOLIDITY_CALL_WITHOUT_DATA_om991k                     
+   4:30   severity:1   Private modifier                             SOLIDITY_PRIVATE_MODIFIER_DOES_NOT_HIDE_DATA_5616b2   
+   6:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1    
+   9:26   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_83k1no                        
+.\40752.sol
+   9:22   severity:2   Use of call function with no data            SOLIDITY_CALL_WITHOUT_DATA_om991k                     
+   9:65   severity:1   Deprecated constructions                     SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a              
+   4:30   severity:1   Private modifier                             SOLIDITY_PRIVATE_MODIFIER_DOES_NOT_HIDE_DATA_5616b2   
+   9:8    severity:1   Revert inside the if-operator                SOLIDITY_REVERT_REQUIRE_c56b12                        
+   6:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1    
+   9:22   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_83k1no                        
+.\40756.sol
+   8:26   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k   
+   8:26   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no      
+   6:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067          
+.\40757.sol
+   7:24   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k          
+   7:65   severity:1   Deprecated constructions            SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   7:8    severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12             
+   7:24   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no             
+   6:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067                 
+   4:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_b51ce0                 
+.\40758.sol
+   8:24   severity:2   Use of call function with no data            SOLIDITY_CALL_WITHOUT_DATA_om991k                    
+   6:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   8:24   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_83k1no                       
+.\40759.sol
+   9:24   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k          
+   9:48   severity:1   Deprecated constructions            SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   9:8    severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12             
+   9:24   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no             
+   6:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067                 
+   4:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_b51ce0                 
+.\40760.sol
+   8:36   severity:2   Use of call function with no data            SOLIDITY_CALL_WITHOUT_DATA_om991k                    
+   6:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   8:36   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_83k1no                       
+.\40761.sol
+   8:25   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k          
+   8:68   severity:1   Deprecated constructions            SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   8:8    severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12             
+   8:25   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no             
+   7:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067                 
+   4:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_b51ce0                 
+   5:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_b51ce0                 
+.\40762.sol
+   8:29   severity:2   Use of call function with no data            SOLIDITY_CALL_WITHOUT_DATA_om991k                    
+   6:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   8:29   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_83k1no                       
+.\40763.sol
+   9:29   severity:2   Use of call function with no data            SOLIDITY_CALL_WITHOUT_DATA_om991k                    
+   6:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   9:29   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_83k1no                       
+.\40764.sol
+   8:21   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k   
+   8:21   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no      
+   6:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067          
+.\40765.sol
+   8:26   severity:2   Use of call function with no data            SOLIDITY_CALL_WITHOUT_DATA_om991k                    
+   6:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   8:26   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_83k1no                       
+.\40766.sol
+   10:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   10:55   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_341gim                       
+.\40770.sol
+   8:23   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k   
+   8:23   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no      
+   7:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067          
+   4:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_b51ce0          
+.\40771.sol
+   9:24   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k          
+   7:44   severity:1   Deprecated constructions            SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   9:46   severity:1   Deprecated constructions            SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   7:8    severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12             
+   9:8    severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12             
+   9:24   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no             
+   6:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067                 
+.\40772.sol
+   6:24   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k          
+   6:62   severity:1   Deprecated constructions            SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   6:8    severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12             
+   6:24   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no             
+   5:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067                 
+.\40774.sol
+   5:12   severity:3   Unchecked low-level call                     SOLIDITY_UNCHECKED_CALL_f39eed                       
+   4:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   4:34   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_341gim                       
+.\40775.sol
+   7:34   severity:2   Use of call function with no data            SOLIDITY_CALL_WITHOUT_DATA_om991k                     
+   4:32   severity:1   Private modifier                             SOLIDITY_PRIVATE_MODIFIER_DOES_NOT_HIDE_DATA_5616b2   
+   6:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1    
+   7:34   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_83k1no                        
+.\40776.sol
+   8:26   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k   
+   8:26   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no      
+   6:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067          
+.\40777.sol
+   6:25   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k          
+   6:67   severity:1   Deprecated constructions            SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   6:8    severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12             
+   6:25   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no             
+   5:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067                 
+   3:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_b51ce0                 
+.\40778.sol
+   8:36   severity:2   Use of call function with no data            SOLIDITY_CALL_WITHOUT_DATA_om991k                    
+   6:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   8:36   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_83k1no                       
+.\40779.sol
+   6:19   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k   
+   6:19   severity:3   Unchecked low-level call            SOLIDITY_UNCHECKED_CALL_f39eed      
+   6:19   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no      
+   5:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067          
+.\40780.sol
+   7:22   severity:2   Use of call function with no data            SOLIDITY_CALL_WITHOUT_DATA_om991k                    
+   5:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   7:22   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_83k1no                       
+.\40781.sol
+   7:22   severity:1   Use of call function with no data            SOLIDITY_CALL_WITHOUT_DATA_lr991l                    
+   5:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   7:22   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_83k1no                       
+.\40782.sol
+   8:23   severity:2   Use of call function with no data            SOLIDITY_CALL_WITHOUT_DATA_om991k                    
+   8:8    severity:1   Revert inside the if-operator                SOLIDITY_REVERT_REQUIRE_c56b12                       
+   5:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   8:23   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_83k1no                       
+.\40783.sol
+   14:23   severity:2   Use of call function with no data            SOLIDITY_CALL_WITHOUT_DATA_om991k                    
+   14:8    severity:1   Revert inside the if-operator                SOLIDITY_REVERT_REQUIRE_c56b12                       
+   11:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   14:23   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_83k1no                       
+   5:4     severity:1   Implicit visibility level                    SOLIDITY_VISIBILITY_b51ce0                           
+.\40784.sol
+   14:21   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k   
+   14:21   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no      
+   12:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067          
+   6:4     severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_b51ce0          
+.\40785.sol
+   13:27   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k   
+   13:27   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no      
+   12:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067          
+   6:4     severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_b51ce0          
+.\40786.sol
+   14:22   severity:2   Use of call function with no data            SOLIDITY_CALL_WITHOUT_DATA_om991k                     
+   14:65   severity:1   Deprecated constructions                     SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a              
+   3:30    severity:1   Private modifier                             SOLIDITY_PRIVATE_MODIFIER_DOES_NOT_HIDE_DATA_5616b2   
+   14:8    severity:1   Revert inside the if-operator                SOLIDITY_REVERT_REQUIRE_c56b12                        
+   11:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1    
+   14:22   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_83k1no                        
+   5:4     severity:1   Implicit visibility level                    SOLIDITY_VISIBILITY_b51ce0                            
+.\40787.sol
+   15:23   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k          
+   13:40   severity:1   Deprecated constructions            SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   13:8    severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12             
+   15:23   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no             
+   12:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067                 
+   6:4     severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_b51ce0                 
+.\40788.sol
+   14:24   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k          
+   14:48   severity:1   Deprecated constructions            SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   14:8    severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12             
+   14:24   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no             
+   11:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067                 
+   3:4     severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_b51ce0                 
+   5:4     severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_b51ce0                 
+.\40789.sol
+   13:25   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k          
+   13:68   severity:1   Deprecated constructions            SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   13:8    severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12             
+   13:25   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no             
+   12:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067                 
+   4:4     severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_b51ce0                 
+   6:4     severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_b51ce0                 
+.\50000.sol
+   9:19   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k          
+   4:40   severity:1   Deprecated constructions            SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   9:41   severity:1   Deprecated constructions            SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a   
+   4:8    severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12             
+   9:8    severity:1   Revert inside the if-operator       SOLIDITY_REVERT_REQUIRE_c56b12             
+   9:19   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no             
+   8:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067                 
+.\50001.sol
+   5:12   severity:3   Unchecked low-level call                     SOLIDITY_UNCHECKED_CALL_f39eed                       
+   4:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   4:33   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_341gim                       
+.\50007.sol
+   15:27   severity:2   Use of call function with no data            SOLIDITY_CALL_WITHOUT_DATA_om991k                    
+   13:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   15:27   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_83k1no                       
+   4:4     severity:1   Implicit visibility level                    SOLIDITY_VISIBILITY_b51ce0                           
+   5:4     severity:1   Implicit visibility level                    SOLIDITY_VISIBILITY_b51ce0                           
+.\50025.sol
+   15:13   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k   
+   15:13   severity:3   Unchecked low-level call            SOLIDITY_UNCHECKED_CALL_f39eed      
+   15:13   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no      
+.\50026.sol
+   14:29   severity:2   Use of call function with no data            SOLIDITY_CALL_WITHOUT_DATA_om991k                    
+   12:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   14:29   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_83k1no                       
+.\50028.sol
+   13:32   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k   
+   13:32   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no      
+   12:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067          
+.\50029.sol
+   15:54   severity:1   Upgrade code to Solidity 0.5.x   SOLIDITY_UPGRADE_TO_050_341gim   
+.\50030.sol
+   14:19   severity:2   Use of call function with no data   SOLIDITY_CALL_WITHOUT_DATA_om991k   
+   14:19   severity:3   Unchecked low-level call            SOLIDITY_UNCHECKED_CALL_f39eed      
+   14:19   severity:1   Upgrade code to Solidity 0.5.x      SOLIDITY_UPGRADE_TO_050_83k1no      
+   12:4    severity:1   Implicit visibility level           SOLIDITY_VISIBILITY_910067          
+.\blackjack.sol
+   70:3     severity:1   Deprecated constructions                     SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a             
+   102:3    severity:1   Deprecated constructions                     SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a             
+   106:3    severity:1   Deprecated constructions                     SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a             
+   170:36   severity:1   Deprecated constructions                     SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a             
+   183:47   severity:1   Deprecated constructions                     SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a             
+   186:41   severity:1   Deprecated constructions                     SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a             
+   223:42   severity:1   Deprecated constructions                     SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a             
+   236:37   severity:1   Deprecated constructions                     SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a             
+   240:41   severity:1   Deprecated constructions                     SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a             
+   268:3    severity:1   Deprecated constructions                     SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a             
+   275:3    severity:1   Deprecated constructions                     SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a             
+   290:3    severity:1   Deprecated constructions                     SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a             
+   24:1     severity:1   Deprecated constructions                     SOLIDITY_DEPRECATED_CONSTRUCTIONS_28fa69             
+   35:1     severity:1   Deprecated constructions                     SOLIDITY_DEPRECATED_CONSTRUCTIONS_28fa69             
+   39:1     severity:1   Deprecated constructions                     SOLIDITY_DEPRECATED_CONSTRUCTIONS_28fa69             
+   249:1    severity:1   Deprecated constructions                     SOLIDITY_DEPRECATED_CONSTRUCTIONS_28fa69             
+   266:1    severity:1   Deprecated constructions                     SOLIDITY_DEPRECATED_CONSTRUCTIONS_28fa69             
+   273:1    severity:1   Deprecated constructions                     SOLIDITY_DEPRECATED_CONSTRUCTIONS_28fa69             
+   280:1    severity:1   Deprecated constructions                     SOLIDITY_DEPRECATED_CONSTRUCTIONS_28fa69             
+   284:1    severity:1   Deprecated constructions                     SOLIDITY_DEPRECATED_CONSTRUCTIONS_28fa69             
+   288:1    severity:1   Deprecated constructions                     SOLIDITY_DEPRECATED_CONSTRUCTIONS_28fa69             
+   253:2    severity:1   Extra gas consumption                        SOLIDITY_EXTRA_GAS_IN_LOOPS_v843m7                   
+   253:2    severity:2   Costly loop                                  SOLIDITY_GAS_LIMIT_IN_LOOPS_f6f853                   
+   8:17     severity:1   Compiler version not fixed                   SOLIDITY_PRAGMAS_VERSION_23fc32                      
+   69:2     severity:1   Revert inside the if-operator                SOLIDITY_REVERT_REQUIRE_c56b12                       
+   101:2    severity:1   Revert inside the if-operator                SOLIDITY_REVERT_REQUIRE_c56b12                       
+   105:2    severity:1   Revert inside the if-operator                SOLIDITY_REVERT_REQUIRE_c56b12                       
+   170:4    severity:1   Revert inside the if-operator                SOLIDITY_REVERT_REQUIRE_c56b12                       
+   183:5    severity:1   Revert inside the if-operator                SOLIDITY_REVERT_REQUIRE_c56b12                       
+   186:5    severity:1   Revert inside the if-operator                SOLIDITY_REVERT_REQUIRE_c56b12                       
+   223:6    severity:1   Revert inside the if-operator                SOLIDITY_REVERT_REQUIRE_c56b12                       
+   236:5    severity:1   Revert inside the if-operator                SOLIDITY_REVERT_REQUIRE_c56b12                       
+   240:5    severity:1   Revert inside the if-operator                SOLIDITY_REVERT_REQUIRE_c56b12                       
+   267:2    severity:1   Revert inside the if-operator                SOLIDITY_REVERT_REQUIRE_c56b12                       
+   274:2    severity:1   Revert inside the if-operator                SOLIDITY_REVERT_REQUIRE_c56b12                       
+   289:2    severity:1   Revert inside the if-operator                SOLIDITY_REVERT_REQUIRE_c56b12                       
+   133:1    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   142:1    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   266:1    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   273:1    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   280:1    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   284:1    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   288:1    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   21:23    severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_901eae                       
+   159:26   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_341gim                       
+   249:25   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_341gim                       
+   293:2    severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_441gim                       
+   91:1     severity:1   Implicit visibility level                    SOLIDITY_VISIBILITY_910067                           
+   95:1     severity:1   Implicit visibility level                    SOLIDITY_VISIBILITY_910067                           
+   51:1     severity:1   Implicit visibility level                    SOLIDITY_VISIBILITY_b51ce0                           
+.\etheraffle.sol
+   76:16    severity:1   Unsafe array's length manipulation            SOLIDITY_ARRAY_LENGTH_MANIPULATION_872bdd            
+   159:12   severity:1   Unsafe array's length manipulation            SOLIDITY_ARRAY_LENGTH_MANIPULATION_872bdd            
+   159:12   severity:1   Deletion of dynamically-sized storage array   SOLIDITY_DELETE_ON_DYNAMIC_ARRAYS_2ft3g5             
+   72:8     severity:1   Extra gas consumption                         SOLIDITY_EXTRA_GAS_IN_LOOPS_k4o1l4                   
+   72:15    severity:1   Costly loop                                   SOLIDITY_GAS_LIMIT_IN_LOOPS_17f23a                   
+   8:17     severity:1   Compiler version not fixed                    SOLIDITY_PRAGMAS_VERSION_23fc32                      
+   147:12   severity:2   ETH transfer inside the loop                  SOLIDITY_TRANSFER_IN_LOOP_8jdj43                     
+   55:4     severity:1   Prefer external to public visibility level    SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   126:4    severity:1   Prefer external to public visibility level    SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   143:4    severity:1   Prefer external to public visibility level    SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   163:4    severity:1   Prefer external to public visibility level    SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   169:4    severity:1   Prefer external to public visibility level    SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   104:27   severity:1   Upgrade code to Solidity 0.5.x                SOLIDITY_UPGRADE_TO_050_901eae                       
+   60:24    severity:1   Upgrade code to Solidity 0.5.x                SOLIDITY_UPGRADE_TO_050_91h3sa                       
+   43:4     severity:1   Implicit visibility level                     SOLIDITY_VISIBILITY_b51ce0                           
+   50:4     severity:1   Implicit visibility level                     SOLIDITY_VISIBILITY_b51ce0                           
+   51:4     severity:1   Implicit visibility level                     SOLIDITY_VISIBILITY_b51ce0                           
+   52:4     severity:1   Implicit visibility level                     SOLIDITY_VISIBILITY_b51ce0                           
+.\guess_the_random_number.sol
+   19:15   severity:1   Checking for strict balance equality         SOLIDITY_BALANCE_EQUALITY_5094ad                     
+   7:16    severity:1   Compiler version not fixed                   SOLIDITY_PRAGMAS_VERSION_23fc32                      
+   12:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   18:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   22:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   15:23   severity:1   Upgrade code to Solidity 0.5.x               SOLIDITY_UPGRADE_TO_050_901eae                       
+   10:4    severity:1   Implicit visibility level                    SOLIDITY_VISIBILITY_b51ce0                           
+.\lottery.sol
+   66:9    severity:1   Deprecated constructions        SOLIDITY_DEPRECATED_CONSTRUCTIONS_27cb59              
+   30:9    severity:1   Deprecated constructions        SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a              
+   48:17   severity:1   Deprecated constructions        SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a              
+   55:39   severity:1   Deprecated constructions        SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a              
+   64:39   severity:1   Deprecated constructions        SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a              
+   57:9    severity:1   Extra gas consumption           SOLIDITY_EXTRA_GAS_IN_LOOPS_v843m7                    
+   57:9    severity:2   Costly loop                     SOLIDITY_GAS_LIMIT_IN_LOOPS_f6f853                    
+   9:18    severity:1   Compiler version not fixed      SOLIDITY_PRAGMAS_VERSION_23fc32                       
+   20:13   severity:1   Private modifier                SOLIDITY_PRIVATE_MODIFIER_DOES_NOT_HIDE_DATA_5616b2   
+   21:11   severity:1   Private modifier                SOLIDITY_PRIVATE_MODIFIER_DOES_NOT_HIDE_DATA_5616b2   
+   29:16   severity:1   Redundant fallback function     SOLIDITY_REDUNDANT_FALLBACK_REJECT_b85a32             
+   46:13   severity:1   Revert inside the if-operator   SOLIDITY_REVERT_REQUIRE_c56b12                        
+   55:9    severity:1   Revert inside the if-operator   SOLIDITY_REVERT_REQUIRE_c56b12                        
+   64:9    severity:1   Revert inside the if-operator   SOLIDITY_REVERT_REQUIRE_c56b12                        
+   46:28   severity:1   Send instead of transfer        SOLIDITY_SEND_430636                                  
+   24:5    severity:1   Implicit visibility level       SOLIDITY_VISIBILITY_910067                            
+   29:5    severity:1   Implicit visibility level       SOLIDITY_VISIBILITY_910067                            
+   34:5    severity:1   Implicit visibility level       SOLIDITY_VISIBILITY_910067                            
+   54:5    severity:1   Implicit visibility level       SOLIDITY_VISIBILITY_910067                            
+   63:5    severity:1   Implicit visibility level       SOLIDITY_VISIBILITY_910067                            
+.\lucky_doubler.sol
+   111:12   severity:1   Unsafe array's length manipulation   SOLIDITY_ARRAY_LENGTH_MANIPULATION_872bdd             
+   142:40   severity:1   Deprecated constructions             SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a              
+   149:12   severity:1   Deprecated constructions             SOLIDITY_DEPRECATED_CONSTRUCTIONS_49bd2a              
+   127:4    severity:1   Deprecated constructions             SOLIDITY_DEPRECATED_CONSTRUCTIONS_28fa69              
+   155:4    severity:1   Deprecated constructions             SOLIDITY_DEPRECATED_CONSTRUCTIONS_28fa69              
+   160:4    severity:1   Deprecated constructions             SOLIDITY_DEPRECATED_CONSTRUCTIONS_28fa69              
+   165:4    severity:1   Deprecated constructions             SOLIDITY_DEPRECATED_CONSTRUCTIONS_28fa69              
+   170:4    severity:1   Deprecated constructions             SOLIDITY_DEPRECATED_CONSTRUCTIONS_28fa69              
+   180:4    severity:1   Deprecated constructions             SOLIDITY_DEPRECATED_CONSTRUCTIONS_28fa69              
+   9:16     severity:1   Compiler version not fixed           SOLIDITY_PRAGMAS_VERSION_23fc32                       
+   21:12    severity:1   Private modifier                     SOLIDITY_PRIVATE_MODIFIER_DOES_NOT_HIDE_DATA_5616b2   
+   24:9     severity:1   Private modifier                     SOLIDITY_PRIVATE_MODIFIER_DOES_NOT_HIDE_DATA_5616b2   
+   25:9     severity:1   Private modifier                     SOLIDITY_PRIVATE_MODIFIER_DOES_NOT_HIDE_DATA_5616b2   
+   26:9     severity:1   Private modifier                     SOLIDITY_PRIVATE_MODIFIER_DOES_NOT_HIDE_DATA_5616b2   
+   28:30    severity:1   Private modifier                     SOLIDITY_PRIVATE_MODIFIER_DOES_NOT_HIDE_DATA_5616b2   
+   29:12    severity:1   Private modifier                     SOLIDITY_PRIVATE_MODIFIER_DOES_NOT_HIDE_DATA_5616b2   
+   30:11    severity:1   Private modifier                     SOLIDITY_PRIVATE_MODIFIER_DOES_NOT_HIDE_DATA_5616b2   
+   125:21   severity:1   Private modifier                     SOLIDITY_PRIVATE_MODIFIER_DOES_NOT_HIDE_DATA_5616b2   
+   142:8    severity:1   Revert inside the if-operator        SOLIDITY_REVERT_REQUIRE_c56b12                        
+   148:8    severity:1   Revert inside the if-operator        SOLIDITY_REVERT_REQUIRE_c56b12                        
+   155:63   severity:1   Upgrade code to Solidity 0.5.x       SOLIDITY_UPGRADE_TO_050_341gim                        
+   160:64   severity:1   Upgrade code to Solidity 0.5.x       SOLIDITY_UPGRADE_TO_050_341gim                        
+   165:58   severity:1   Upgrade code to Solidity 0.5.x       SOLIDITY_UPGRADE_TO_050_341gim                        
+   170:84   severity:1   Upgrade code to Solidity 0.5.x       SOLIDITY_UPGRADE_TO_050_341gim                        
+   180:94   severity:1   Upgrade code to Solidity 0.5.x       SOLIDITY_UPGRADE_TO_050_341gim                        
+   95:8     severity:1   Upgrade code to Solidity 0.5.x       SOLIDITY_UPGRADE_TO_050_441gim                        
+   33:4     severity:1   Implicit visibility level            SOLIDITY_VISIBILITY_910067                            
+   53:4     severity:1   Implicit visibility level            SOLIDITY_VISIBILITY_910067                            
+   137:4    severity:1   Implicit visibility level            SOLIDITY_VISIBILITY_910067                            
+   141:4    severity:1   Implicit visibility level            SOLIDITY_VISIBILITY_910067                            
+   147:4    severity:1   Implicit visibility level            SOLIDITY_VISIBILITY_910067                            
+   155:4    severity:1   Implicit visibility level            SOLIDITY_VISIBILITY_910067                            
+   160:4    severity:1   Implicit visibility level            SOLIDITY_VISIBILITY_910067                            
+   165:4    severity:1   Implicit visibility level            SOLIDITY_VISIBILITY_910067                            
+   170:4    severity:1   Implicit visibility level            SOLIDITY_VISIBILITY_910067                            
+   180:4    severity:1   Implicit visibility level            SOLIDITY_VISIBILITY_910067                            
+.\overflow_simple_add.sol
+   12:4   severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+.\overflow_single_tx.sol
+   10:16   severity:1   Compiler version not fixed                   SOLIDITY_PRAGMAS_VERSION_23fc32                      
+   16:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   22:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   28:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   34:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   40:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   46:4    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+.\timelock.sol
+   8:17   severity:1   Compiler version not fixed                   SOLIDITY_PRAGMAS_VERSION_23fc32                      
+   15:5   severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   20:5   severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   25:5   severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+.\token.sol
+   27:3    severity:1   Deprecated constructions                     SOLIDITY_DEPRECATED_CONSTRUCTIONS_28fa69             
+   7:17    severity:1   Compiler version not fixed                   SOLIDITY_PRAGMAS_VERSION_23fc32                      
+   20:13   severity:2   Non-strict comparison with zero              SOLIDITY_UINT_CANT_BE_NEGATIVE_733fdd                
+   18:3    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   27:3    severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   14:3    severity:1   Implicit visibility level                    SOLIDITY_VISIBILITY_910067                           
+   11:3    severity:1   Implicit visibility level                    SOLIDITY_VISIBILITY_b51ce0                           
+.\tokensalechallenge.sol
+   7:16   severity:1   Compiler version not fixed                   SOLIDITY_PRAGMAS_VERSION_23fc32                      
+   13:4   severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   17:4   severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   21:4   severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   28:4   severity:1   Prefer external to public visibility level   SOLIDITY_UNUSED_FUNCTION_SHOULD_BE_EXTERNAL_73ufc1   
+   11:4   severity:1   Implicit visibility level                    SOLIDITY_VISIBILITY_b51ce0                           
+
+? 1046 problems (1046 errors)

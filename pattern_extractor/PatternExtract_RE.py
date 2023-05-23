@@ -18,7 +18,8 @@ def store_pattern(data: dict):
     info_json = json.dumps(data)
     # TODO:修改特征写入路径
     # with open("../pattern_feature/reentrancy.json", "a+") as f:
-    with open("../pattern_feature/reentrancy_test.json", "a+") as f:
+    # with open("../pattern_feature/reentrancy_test.json", "a+") as f:
+    with open("../pattern_feature/reentrancy_D2_test.json", "a+") as f:
         # pickle.dump(data, my_file)
         f.write(info_json+"\n")
 
@@ -149,8 +150,12 @@ if __name__ == "__main__":
     label = None
     # TODO:修改读取源码的文件路径
     # inputFileDir = "../data/dataset/reentrancy/"
-    inputFileDir = "../data/reentrancy/reentrancy_test_sourcecode/"
+    # inputFileDir = "../data/reentrancy/reentrancy_test_sourcecode/"
     # inputFileDir = "../data/reentrancy/reentrancy_train_sourcecode/"
+
+    # 混合了D1，D2两个数据集的数据
+    inputFileDir = "../data/reentrancy/reentrancy_D2_test_sourcecode/"
+    # inputFileDir = "../data/reentrancy/reentrancy_D2_train_sourcecode/"
 
 
     # outputfeatureDir = "../pattern_feature/feature_zeropadding/reentrancy/"

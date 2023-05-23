@@ -10,31 +10,34 @@ value : the value of compiled contract
 cfg: Control Flow Graph of contract 
 '''
 class CFGFeature:
-    def __init__(self,key,cfg,pattern,label=0):
+    def __init__(self,key,cfg_instructions,cfg_basic_blocks,pattern,label=0):
         self.name = key
         # self.value = value
-        self.cfg = cfg
+        self.cfg_instructions = cfg_instructions
+        self.cfg_basic_blocks = cfg_basic_blocks
         self.label = int(label)
         self.pattern = np.array(pattern)
         self.basicBlock = []
         self.basicBlock_pc = []
-        self.allInstructions = cfg.instructions # 所有的opcode序列
+        self.allInstructions = self.cfg_instructions.instructions # 所有的opcode序列
         self.allinstructions_feature = []
-        self.basicBlock_len = len(cfg.basic_blocks)
+        self.basicBlock_len = len(self.cfg_basic_blocks.basic_blocks)
         self.adjacency = np.eye(self.basicBlock_len) # 带自连接的邻接矩阵
         # self.adjacency = np.full((self.basicBlock_len,self.basicBlock_len),0.01) + np.eye(self.basicBlock_len) # 带自连接的邻接矩阵
         self.degree_matrix = np.eye(self.basicBlock_len) # 度矩阵
         self.block_feature = []
         self.edge_src = []
         self.edge_dst = []
+        # TODO:修改是否不转化address操作码，address（）表示不转化
         self.opcode_vec()
+        # self.opcode_vec_address()
         self.initBasicBlock()
         self.init_Degree_adjacency()
         self.create_block_feature()
 
     # 排序初始化block
     def initBasicBlock(self):
-        for basic_block in sorted(self.cfg.basic_blocks, key=lambda x: x.start.pc):
+        for basic_block in sorted(self.cfg_basic_blocks, key=lambda x: x.start.pc):
             # print(f"{basic_block} -> {sorted(basic_block.all_outgoing_basic_blocks, key=lambda x: x.start.pc)}")
             # print(f"{basic_block} <- {sorted(basic_block.all_incoming_basic_blocks, key=lambda x: x.start.pc)}")
             self.basicBlock.append(basic_block)
@@ -118,3 +121,13 @@ class CFGFeature:
                                         temp_op_feature)
             # 使用线性插值的返回
             self.allinstructions_feature.append(temp_op_feature.reshape(1,-1))
+
+    # 将操作码进行向量化，除去地址码
+    def opcode_vec_address(self):
+        # model = Word2Vec.load('word2vec.model')
+        model = Word2Vec.load('word2vec_2.model')
+        for i in range(len(self.allInstructions)):
+            opcode_seq = str(self.allInstructions[i]).split(" ")
+            # 生成第一个操作码的向量
+            temp_op_feature = model.wv[opcode_seq[0]]
+            self.allinstructions_feature.append(temp_op_feature.reshape(1, -1))

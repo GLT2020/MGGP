@@ -15,9 +15,11 @@ from sklearn import metrics
 from dgl import DGLGraph
 
 args = parameter_parser()
-use_cuda = 'cuda' if torch.cuda.is_available() else 'cpu'
+use_cuda = 'cuda:0' if torch.cuda.is_available() else 'cpu'
 device = torch.device(use_cuda)
 LR = 0.01
+
+PER = args.D
 
 from dgl.utils import expand_as_pair
 
@@ -129,8 +131,11 @@ class dgl_GCN_normal():
             time_iter = time.time() - start
             train_loss += loss.item() * len(output)
             n_samples += len(output)
+            # 存储模型
             if loss < pre_loss:
-                torch.save(self.model, '/model/pth/dgl_GCN_origin_D2.pth')
+                # torch.save(self.model, 'model/pth/dgl_GCN_origin_D2.pth')
+                # torch.save(self.model, 'model/pth/dgl_GCN_origin_D2_address.pth')
+                torch.save(self.model, 'model/pth/dgl_GCN_origin_D2_'+ PER +'.pth')
                 pre_loss = loss
 
         print('Train Epoch: {} [{}/{} ({:.0f}%)] Loss: {:.6f} (avg: {:.6f})  sec/iter: {:.4f}'.format(
@@ -144,7 +149,7 @@ class dgl_GCN_normal():
         start = time.time()
         test_loss, n_samples, count = 0, 0, 0
         tn, fp, fn, tp = 0, 0, 0, 0  # calculate recall, precision, F1 score
-        accuracy, recall, precision, F1 = 0, 0, 0, 0
+        accuracy, recall, precision, F1 = 0.0, 0.0, 0.0, 0.0
         fn_list = []  # Store the contract id corresponding to the fn
         fp_list = []  # Store the contract id corresponding to the fp
 
@@ -186,22 +191,26 @@ class dgl_GCN_normal():
                     # fp_list.append(np.array(data[5].detach().cpu()[k]).tolist())
                     continue
 
-            accuracy += metrics.accuracy_score(labels.cpu(), pred.view_as(labels))
-            recall += metrics.recall_score(labels.cpu(), pred.view_as(labels))
-            precision += metrics.precision_score(labels.cpu(), pred.view_as(labels))
-            F1 += metrics.f1_score(labels.cpu(), pred.view_as(labels))
+            # accuracy += metrics.accuracy_score(labels.cpu(), pred.view_as(labels))
+            # recall += metrics.recall_score(labels.cpu(), pred.view_as(labels))
+            # precision += metrics.precision_score(labels.cpu(), pred.view_as(labels))
+            # F1 += metrics.f1_score(labels.cpu(), pred.view_as(labels))
 
         print(tp, fp, tn, fn)
-        accuracy = 100. * accuracy / count
-        recall = 100. * recall / count
-        precision = 100. * precision / count
-        F1 = 100. * F1 / count
+        # accuracy = 100. * accuracy / count
+        # recall = 100. * recall / count
+        # precision = 100. * precision / count
+        # F1 = 100. * F1 / count
+        accuracy = (tp + tn) / (tp + fp + tn + fn)
+        recall = tp / (tp + fn)
+        precision = tp / (tp + fp)
+        F1 = 2 * precision * recall / (precision + recall)
         FPR = fp / (fp + tn)
         # FPR = 0
-
+        print("GCN:",epoch + 1)
         print(
-            'Test set (epoch {}): Average loss: {:.4f}, Accuracy: ({:.2f}%), Recall: ({:.2f}%), Precision: ({:.2f}%), '
-            'F1-Score: ({:.2f}%), FPR: ({:.2f}%)  sec/iter: {:.4f}\n'.format(
+            'Test set (epoch {}): Average loss: {:.4f}, Accuracy: ({:.4f}%), Recall: ({:.4f}%), Precision: ({:.4f}%), '
+            'F1-Score: ({:.4f}%), FPR: ({:.4f}%)  sec/iter: {:.4f}\n'.format(
                 epoch + 1, test_loss / n_samples, accuracy, recall, precision, F1, FPR,
                 (time.time() - start) / len(test_loader))
         )
@@ -210,14 +219,21 @@ class dgl_GCN_normal():
         # print("fp_list(predict == 1 & label == 0):", fp_list)
         # print()
 
-        return accuracy, recall, precision, F1, FPR
+        return [tp, fp, tn, fn, accuracy, recall, precision, F1, FPR]
 
     def get_hidden(self,dataset):
         self.model.eval()
-        for batch_idx, (batched_graph, labels)  in enumerate(dataset):  # 读取的data:节点特征、边矩阵、图的标签、图的id
-            graph = batched_graph.to(device)
-            feats = batched_graph.ndata['feat'].to(device)
-            labels = labels.to(device)
-            output, output_hidden = self.model(graph, feats)
-            return [output_hidden, labels]
+        hidden_all = []
+        label_all = []
+        with torch.no_grad():
+            for batch_idx, (batched_graph, labels)  in enumerate(dataset):  # 读取的data:节点特征、边矩阵、图的标签、图的id
+                graph = batched_graph.to(device)
+                feats = batched_graph.ndata['feat'].to(device)
+                output, output_hidden = self.model(graph, feats)
+                hidden_all.append(output_hidden.cpu())
+                label_all.append(labels.cpu())
+        hidden = torch.cat(hidden_all, 0)
+        labels = torch.cat(label_all, 0)
+        torch.cuda.empty_cache()
+        return [hidden, labels]
 

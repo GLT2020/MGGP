@@ -4,38 +4,32 @@ import pickle
 import json
 import csv
 import numpy as np
+from evm_cfg_builder.cfg import CFG
 
-def store_bytecode(data: dict):
-    info_json = json.dumps(data)
+def store_bytecode(data):
+    # info_json = json.dumps(data)
     # TODO： 需要更改对应的写入文件名
-    # with open("bytecode_dict.json", "a+") as f:
-    with open("bytecode_dict_reentrancy_test.json", "a+") as f:
-    # with open("bytecode_dict_reentrancy_train.json", "a+") as f:
-        # pickle.dump(data, my_file)
-        f.write(info_json+"\n")
-    # path = "reentrancy"
-    # # 保存对象
-    # for i in range(len(data)):
-    #     adj = open("../train_data/"+path+"/Adj.txt", 'a')
-    #     adj.write(str(data[i].adjacency))
-    #
-    #
-    #     deg = open("../train_data/"+path+"/degree_matrix.txt", 'a')
-    #     deg.write(str(data[i].degree_matrix))
-    #
-    #
-    #     block = open("../train_data/"+path+"/block_feature.txt", 'a')
-    #     block.write(str(data[i].block_feature))
-    #
-    #
-    #     allInstructions = open("../train_data/"+path+"/allInstructions.txt", 'a')
-    #     allInstructions.write(str(data[i].allInstructions))
+    # with open("../data/reentrancy/percentage/D19/train.json", "a+") as f:
+    # with open("../data/reentrancy/percentage/D19/test.json", "a+") as f:
+    #     # pickle.dump(data, my_file)
+    #     f.write(info_json+"\n")
+
+    # 将cfg一起保存
+    with open("../data/reentrancy/percentage/D19/test.pkl", "wb") as f:
+        pickle.dump(data, f)
+
+    with open("../data/reentrancy/percentage/D19/test.pkl", "rb") as f:
+        s = pickle.load(f)
+    print(s)
 
 
 def read_label():
     # TODO:修改label文件读取路径
-    # path = "../data/lable/reentrancy1"
-    path = "../data/reentrancy/reentrancy_test_label"
+    # path = "../data/reentrancy/reentrancy_D2_test_label" # 混合D1,D2
+    # path = "../data/reentrancy/reentrancy_D2_train_label"
+    # 不同比例的D2数据集
+    # path = "../data/reentrancy/percentage/D19/train_label"
+    path = "../data/reentrancy/percentage/D19/test_label"
     data = []
     data_dict = {}
     with open(path+".csv") as csvfile:
@@ -52,8 +46,7 @@ def read_pattern():
     info_data = []
     data_dict = {}
     # TODO： 需要更改对应的pattern路径
-    with open("../pattern_feature/reentrancy_test.json", "r") as f:
-    # with open("../pattern_feature/reentrancy_2.json", "r") as f:
+    with open("../pattern_feature/reentrancy_D2.json", "r") as f:
         for line in f:
             try:
                 info_data.append(json.loads(line.rstrip('\n')))
@@ -65,9 +58,9 @@ def read_pattern():
 
 if __name__ == '__main__':
     # TODO： 需要更改读取的源码文件名
-    # path = "../data/dataset/reentrancy"
-    path = "../data/reentrancy/reentrancy_test_sourcecode"
-    # path = "../data/reentrancy/reentrancy_train_sourcecode"
+    # 混合D1,D2的数据
+    path = "../data/reentrancy/D2_sourcecode"
+
     cfg_feature_list = []
     list_dict = []
     # 读取label
@@ -78,26 +71,33 @@ if __name__ == '__main__':
         print("当前目录路径：",root)
         print("当前目录下所有子目录：",dirs)
         print("当前路径下所有非目录子文件",files)
+        num = 0
         for i in range(len(files)):
             print(root+files[i])
-            file = compile_files([root+'/'+files[i]])
-
-            print(file)
-
-            max_bin_len = 0
-            max_file_value = object
-            max_file_key = ""
-            for key,value in file.items():
-                if(len(value['bin-runtime'])) > max_bin_len:
-                    max_file_value = value
-                    max_file_key = key
-                    max_bin_len = len(value['bin-runtime'])
-            print(max_file_key)
-            max_file_key = max_file_key.split('/')[-1].split(':')[0]
-            runtime_bytecode = max_file_value['bin-runtime']
-
-            store_dict = {"name": max_file_key, "label": label_dict[max_file_key], "runtime_bytecode": runtime_bytecode, "pattern":pattern_dict[max_file_key]}
-            store_bytecode(store_dict)
+            # 判断文件名是否在label表中，如果不存在则跳过
+            if files[i] in label_dict.keys():
+                file = compile_files([root+'/'+files[i]])
+                max_bin_len = 0
+                max_file_value = object
+                max_file_key = ""
+                for key,value in file.items():
+                    print(file)
+                    if(len(value['bin-runtime'])) > max_bin_len:
+                        max_file_value = value
+                        # max_file_key = key
+                        max_bin_len = len(value['bin-runtime'])
+                print(key)
+                # max_file_key = max_file_key.split('/')[-1].split(':')[0]
+                max_file_key = key.split('/')[-1].split(':')[0]
+                runtime_bytecode = max_file_value['bin-runtime']
+                cfg = CFG(runtime_bytecode)
+                num += 1
+                store_dict = {"name": max_file_key, "label": label_dict[max_file_key],
+                              "runtime_bytecode": runtime_bytecode, "pattern":pattern_dict[max_file_key],
+                              "cfg_basic_blocks":cfg.basic_blocks, "cfg_instructions":cfg.instructions}
+                cfg_feature_list.append(store_dict)
+        store_bytecode(store_dict)
+        print(num)
 
             # create the w2v corpus 生成w2v的词汇表
             # with open('compile/word.txt', 'a+') as writers:

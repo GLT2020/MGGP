@@ -13,6 +13,7 @@ from model.dgl_gcn import dgl_GCN_normal
 from model.gru import GRU_normal
 from model.pattern import Pattern_normal
 from model.MLP import Out_normal
+from model.MLP_double import Out_normal_double
 from sklearn import manifold
 import matplotlib.pyplot as plt
 import numpy as np
@@ -21,18 +22,23 @@ from dgl.dataloading import GraphDataLoader
 import json
 import time
 
+args = parameter_parser()
+PER = args.D
+
 # 读取字节码列表
 def read_bytecode():
     info_data_train = []
     info_data_test = []
-    # if args.mode == 'test':
-    #     path = "./compile/bytecode_dict_reentrancy_test.json"
-    #     # path = "./compile/bytecode_dict.json"
-    # elif args.mode == 'train':
-    #     path = "./compile/bytecode_dict_reentrancy_train.json"
-    path_test = "./compile/bytecode_dict_reentrancy_test.json"
-    path_train = "./compile/bytecode_dict.json"
+    # TODO: 修改读取的数据集位置
+    # path_test = "./compile/bytecode_dict_reentrancy_test.json"
+    # path_train = "./compile/bytecode_dict.json"
     # path_train = "./compile/bytecode_dict_reentrancy_train.json"
+    # 混合D1,D2
+    # path_test = "./compile/bytecode_dict_reentrancy_D2_test.json"
+    # path_train = "./compile/bytecode_dict_reentrancy_D2_train.json"
+    # 混合的数据集按比例切割
+    path_test = "./data/reentrancy/percentage/"+ PER +"/test.json"
+    path_train = "./data/reentrancy/percentage/"+ PER +"/train.json"
     with open(path_train, "r") as f:
         for line in f:
             try:
@@ -56,39 +62,59 @@ def create_w2v_word(cfg_feature_list_train:list):
                 writers.write(str(cfg_feature_list_train[i].instructions[j]) + " ")
     writers.write("\n")
 
+# 将测试模型的数据保存下来:name数据集名，model：模型类别
+def save_modle_result(data, name, model):
+    dic = {}
+    key = ["tp", "fp", "tn", "fn", "accuracy", "recall", "precision", "F1", "FPR"]
+    for index, value in enumerate(data):
+        dic[key[index]] = value
+    info_json = json.dumps(dic)
+    path = "result/"+ name +"/"+ model +".json"
+    with open(path, "a+") as f:
+        # pickle.dump(data, my_file)
+        f.write(info_json + "\n")
+
 if __name__ == '__main__':
-    args = parameter_parser()
-    args.filters = list(map(int, args.filters.split(',')))
-    args.lr_decay_steps = list(map(int, args.lr_decay_steps.split(',')))
-    for arg in vars(args):
-        print(arg, getattr(args, arg))
+
+    # args.filters = list(map(int, args.filters.split(',')))
+    # args.lr_decay_steps = list(map(int, args.lr_decay_steps.split(',')))
+    # for arg in vars(args):
+    #     print(arg, getattr(args, arg))
 
     cfg_feature_list_train = []
     cfg_feature_list_test = []
     bytecode_dict_list_train, bytecode_dict_list_test = read_bytecode()
     # print(bytecode_dict_list)
+    # 生成cfg，训练集数据
     for i in range(len(bytecode_dict_list_train)):
         bytecode = bytecode_dict_list_train[i]
         cfg = CFG(bytecode['runtime_bytecode'])
-        cfg_feature = CFGFeature(key=bytecode['name'],cfg=cfg,label=bytecode['label'],pattern=bytecode['pattern'])
+        cfg_feature = CFGFeature(key=bytecode['name'],cfg_basic_blocks=bytecode['cfg_basic_blocks'],
+                                 cfg_instructions=bytecode['cfg_instructions'],label=bytecode['label'],
+                                 pattern=bytecode['pattern'])
         # print(str(cfg_feature.basicBlock[0].instructions[0]).split(" "))
         cfg_feature_list_train.append(cfg_feature)
-    # 测试集数据
+    # 生成cfg，测试集数据
     for i in range(len(bytecode_dict_list_test)):
         bytecode = bytecode_dict_list_test[i]
         cfg = CFG(bytecode['runtime_bytecode'])
-        cfg_feature = CFGFeature(key=bytecode['name'],cfg=cfg,label=bytecode['label'],pattern=bytecode['pattern'])
+        # cfg_feature = CFGFeature(key=bytecode['name'],cfg=cfg,label=bytecode['label'],pattern=bytecode['pattern'])
+        cfg_feature = CFGFeature(key=bytecode['name'], cfg_basic_blocks=bytecode['cfg_basic_blocks'],
+                                 cfg_instructions=bytecode['cfg_instructions'], label=bytecode['label'],
+                                 pattern=bytecode['pattern'])
         # print(str(cfg_feature.basicBlock[0].instructions[0]).split(" "))
         cfg_feature_list_test.append(cfg_feature)
     # print(cfg_feature_list_train)
+    # 生成新的w2v词汇表
     # create_w2v_word(cfg_feature_list_train)
 
+    # 设置固定的随机种子
     # torch.manual_seed(args.seed)
     # torch.cuda.manual_seed(args.seed)
     # torch.cuda.manual_seed_all(args.seed)
     # rnd_state = np.random.RandomState(args.seed)
 
-    if args.model == 'all':
+    if args.model == 'all' or args.model == 'all_double':
         datareader_graph_gbl_train = gblData(cfg_feature_list_train)
         datareader_graph_gbl_test = gblData(cfg_feature_list_test)
         datareader_graph_train = GraphData_pca(cfg_feature_list_train)
@@ -117,27 +143,35 @@ if __name__ == '__main__':
     gru_model = GRU_normal(input_dim=300,hidden_dim=64,output_dim=2)
     pattern_model = Pattern_normal(input_dim=64,hidden_dim=64,output_dim=2)
     output_model = Out_normal(input_dim=64, output_dim= 2)
+    output_model_double = Out_normal_double(input_dim=64, output_dim=2)
 
-    # loader_graph = DataLoader(dataset=datareader_graph, batch_size=25, shuffle=True, drop_last=True,collate_fn=collate_graph_batch)
     # 生成DataLoader，如果不是all，则不需要生成其他模型的DataLoader
-    if args.model == 'all':
-        loader_graph_gbl_train = GraphDataLoader(dataset=datareader_graph_gbl_train,batch_size=len(cfg_feature_list_train),collate_fn=collate_dgl)
-        loader_graph_gbl_test = GraphDataLoader(dataset=datareader_graph_gbl_test, batch_size=len(cfg_feature_list_test) ,collate_fn=collate_dgl)
+    if args.model == 'all' or args.model == 'all_double':
+        loader_graph_gbl_train = GraphDataLoader(dataset=datareader_graph_gbl_train, batch_size=10 ,collate_fn=collate_dgl)
+        loader_graph_gbl_test = GraphDataLoader(dataset=datareader_graph_gbl_test, batch_size=10 ,collate_fn=collate_dgl)
 
-        loader_graph_train = DataLoader(dataset=datareader_graph_train,batch_size=len(cfg_feature_list_train))
-        loader_graph_test = DataLoader(dataset=datareader_graph_test, batch_size=len(cfg_feature_list_test))
+        # loader_graph_train = DataLoader(dataset=datareader_graph_train,batch_size=len(cfg_feature_list_train))
+        # loader_graph_test = DataLoader(dataset=datareader_graph_test, batch_size=len(cfg_feature_list_test))
 
-        loader_opcode_train = DataLoader(dataset=datareader_opcode_train,batch_size=len(cfg_feature_list_train),collate_fn=collate_opcode_batch)
-        loader_opcode_test = DataLoader(dataset=datareader_opcode_test, batch_size=len(cfg_feature_list_test), collate_fn=collate_opcode_batch)
+        # loader_opcode_train = DataLoader(dataset=datareader_opcode_train,batch_size=len(cfg_feature_list_train),collate_fn=collate_opcode_batch)
+        # loader_opcode_test = DataLoader(dataset=datareader_opcode_test, batch_size=len(cfg_feature_list_test), collate_fn=collate_opcode_batch)
+        loader_opcode_train = DataLoader(dataset=datareader_opcode_train, batch_size=10,
+                                         collate_fn=collate_opcode_batch)
+        loader_opcode_test = DataLoader(dataset=datareader_opcode_test, batch_size=10,
+                                        collate_fn=collate_opcode_batch)
 
-        loader_pattern_train = DataLoader(dataset=datareader_pattern_train,batch_size=len(cfg_feature_list_train))
-        loader_pattern_test = DataLoader(dataset=datareader_pattern_test, batch_size=len(cfg_feature_list_test))
+        loader_pattern_train = DataLoader(dataset=datareader_pattern_train,batch_size=10)
+        loader_pattern_test = DataLoader(dataset=datareader_pattern_test, batch_size=10)
 
         out_feature_train_list = []
         out_feature_test_list = []
+
         # get the feature after dgl_gcn
-        dgl_gcn_model.model = torch.load('model/pth/dgl_GCN_origin_D2.pth')
+        print("get the trained dateset by dgl")
         # dgl_gcn_model.model = torch.load('dgl_GCN_origin.pth')
+        # dgl_gcn_model.model = torch.load('model/pth/dgl_GCN_origin_D2.pth')
+        # dgl_gcn_model.model = torch.load('model/pth/dgl_GCN_origin_D2_address.pth')
+        dgl_gcn_model.model = torch.load('model/pth/dgl_GCN_origin_D2_'+ PER +'.pth')
         gcn_feature_train = dgl_gcn_model.get_hidden(loader_graph_gbl_train)
         out_feature_train_list.append(gcn_feature_train[0].detach())
         gcn_feature_test = dgl_gcn_model.get_hidden(loader_graph_gbl_test)
@@ -150,15 +184,20 @@ if __name__ == '__main__':
         # gcn_feature_test = gcn_model.get_hidden(loader_graph_test)
         # out_feature_test_list.append(gcn_feature_test[0].detach())
 
-        gru_model.model = torch.load('model/pth/gru_D2.pth')
+        print("get the trained dateset by GRU")
         # gru_model.model = torch.load('gru.pth')
+        # gru_model.model = torch.load('model/pth/gru_D2.pth')
+        # gru_model.model = torch.load('model/pth/gru_D2_address.pth')
+        gru_model.model = torch.load('model/pth/gru_D2_'+ PER +'.pth')
         gru_feature_train = gru_model.get_hidden(loader_opcode_train)
         out_feature_train_list.append(gru_feature_train[0].detach())
         gru_feature_test = gru_model.get_hidden(loader_opcode_test)
         out_feature_test_list.append(gru_feature_test[0].detach())
 
-        pattern_model.model = torch.load('model/pth/pattern_D2.pth')
+        print("get the trained dateset by Pattern")
         # pattern_model.model = torch.load('pattern.pth')
+        # pattern_model.model = torch.load('model/pth/pattern_D2.pth')
+        pattern_model.model = torch.load('model/pth/pattern_D2_'+ PER +'.pth')
         pattern_feature_train = pattern_model.get_hidden(loader_pattern_train)
         out_feature_train_list.append(pattern_feature_train[0].detach())  # pattern的特征
         out_feature_train_list.append(pattern_feature_train[1].detach())  # 标签
@@ -168,73 +207,106 @@ if __name__ == '__main__':
 
         datareader_out_train = MLPData(out_feature_train_list)
         datareader_out_test = MLPData(out_feature_test_list)
-        loader_out_train = DataLoader(dataset=datareader_out_train, batch_size=25, shuffle=True, drop_last=True)
+        loader_out_train = DataLoader(dataset=datareader_out_train, batch_size=10, shuffle=True, drop_last=True)
         loader_out_test = DataLoader(dataset=datareader_out_test, batch_size=len(cfg_feature_list_train))
     else:
         if args.model == 'dgl':
             # gbl数据集，使用for g, labels in dataloader：
-            loader_graph_gbl_train = GraphDataLoader(dataset=datareader_graph_gbl_train, batch_size=25, shuffle=True, drop_last= True, collate_fn=collate_dgl)
+            loader_graph_gbl_train = GraphDataLoader(dataset=datareader_graph_gbl_train, batch_size=10, shuffle=True, drop_last= True, collate_fn=collate_dgl)
             loader_graph_gbl_test = GraphDataLoader(dataset=datareader_graph_gbl_test, batch_size=len(cfg_feature_list_train), collate_fn=collate_dgl)
         elif args.model == 'gcn':
-            loader_graph_train = DataLoader(dataset=datareader_graph_train, batch_size=25, shuffle=True, drop_last=True)
+            loader_graph_train = DataLoader(dataset=datareader_graph_train, batch_size=10, shuffle=True, drop_last=True)
             loader_graph_test = DataLoader(dataset=datareader_graph_test, batch_size=len(cfg_feature_list_train))
         elif args.model == 'gru':
-            loader_opcode_train = DataLoader(dataset=datareader_opcode_train, batch_size=25, shuffle=True, drop_last=True,collate_fn=collate_opcode_batch)
+            loader_opcode_train = DataLoader(dataset=datareader_opcode_train, batch_size=10, shuffle=True, drop_last=True,collate_fn=collate_opcode_batch)
             loader_opcode_test = DataLoader(dataset=datareader_opcode_test, batch_size=len(cfg_feature_list_train), collate_fn=collate_opcode_batch)
         elif args.model == 'pattern':
-            loader_pattern_train = DataLoader(dataset=datareader_pattern_train, batch_size=25,shuffle=True,drop_last=True)
+            loader_pattern_train = DataLoader(dataset=datareader_pattern_train, batch_size=10,shuffle=True,drop_last=True)
             loader_pattern_test = DataLoader(dataset=datareader_pattern_test, batch_size=len(cfg_feature_list_train))
 
-
-
-    # gcn_model = GCN_modify(args.node_input_dim,2,filters=args.filters,n_hidden=args.n_hidden,dropout=args.dropout)
     # 训练模型
     loss_list = []
-    if args.mode == 'train' and args.model != 'all':
+    # train
+    if args.mode == 'train':
         for i in range(args.epochs):
             if args.model == 'dgl':
-                loss = dgl_gcn_model.train(loader_graph_gbl_train,i)
+                loss = dgl_gcn_model.train(loader_graph_gbl_train, i)
                 loss_list.append(loss)
             elif args.model == 'gcn':
-                loss = gcn_model.train(loader_graph_train,i)
+                loss = gcn_model.train(loader_graph_train, i)
                 loss_list.append(loss)
             elif args.model == 'gru':
-                loss = gru_model.train(loader_opcode_train,i)
+                loss = gru_model.train(loader_opcode_train, i)
                 loss_list.append(loss)
             elif args.model == 'pattern':
-                loss = pattern_model.train(loader_pattern_train,i)
+                loss = pattern_model.train(loader_pattern_train, i)
                 loss_list.append(loss)
-        x = [i for i in range(args.epochs)]
-        plt.plot(x, loss_list)
-        plt.show()
-        print(args.model, "loss")
-
-    elif args.mode == 'train' and args.model == 'all':
-        for i in range(args.epochs):
-            loss = output_model.train(loader_out_train,i)
-            loss_list.append(loss)
-        x = [i for i in range(args.epochs)]
-        plt.plot(x, loss_list)
-        plt.show()
-        print(args.model, "loss")
+            elif args.model == 'all':
+                loss = output_model.train(loader_out_train, i)
+                loss_list.append(loss)
+            elif args.model == 'all_double':
+                loss = output_model_double.train(loader_out_train, i)
+                loss_list.append(loss)
+        # x = [i for i in range(args.epochs)]
+        # plt.plot(x, loss_list)
+        # plt.show()
+        # print(args.model, "loss")
 
     # test
     if args.model == 'gcn':
-        gcn_model.model = torch.load('model/pth/GCN_origin.pth')
-        gcn_model.test(loader_graph_test, i)
+        pass
+        # gcn_model.model = torch.load('model/pth/GCN_origin.pth')
+        # gcn_model.test(loader_graph_test, i)
     elif args.model == 'dgl':
-        dgl_gcn_model.model = torch.load('model/pth/dgl_GCN_origin_D2.pth')
-        dgl_gcn_model.test(loader_graph_gbl_test, i)
+        # dgl_gcn_model.model = torch.load('model/pth/dgl_GCN_origin.pth')
+        # dgl_gcn_model.model = torch.load('model/pth/dgl_GCN_origin_D2.pth')
+        # dgl_gcn_model.model = torch.load('model/pth/dgl_GCN_origin_D2_address.pth')
+        dgl_gcn_model.model = torch.load('model/pth/dgl_GCN_origin_D2_' + PER + '.pth')
+        dgl_gcn_model.test(loader_graph_gbl_train, i)
+        dgl_result = dgl_gcn_model.test(loader_graph_gbl_test, i)
+        save_modle_result(dgl_result, PER, "gcn")
     elif args.model == 'gru':
-        gru_model.model = torch.load('model/pth/gru_D2.pth')
-        gru_model.test(loader_opcode_test,i)
+        # gru_model.model = torch.load('model/pth/gru_D2.pth')
+        # gru_model.model = torch.load('model/pth/gru_D2_address.pth')
+        gru_model.model = torch.load('model/pth/gru_D2_' + PER + '.pth')
+        gru_model.test(loader_opcode_train, i)
+        gru_result = gru_model.test(loader_opcode_test, i)
+        save_modle_result(gru_result, PER, "gru")
     elif args.model == 'pattern':
-        pattern_model.model = torch.load('model/pth/pattern_D2.pth')
-        pattern_model.test(loader_pattern_test, i)
+        # pattern_model.model = torch.load('model/pth/pattern_D2.pth')
+        pattern_model.model = torch.load('model/pth/pattern_D2_' + PER + '.pth')
+        pattern_model.test(loader_pattern_train, i)
+        pattern_result = pattern_model.test(loader_pattern_test, i)
+        save_modle_result(pattern_result, PER, "pattern")
     elif args.model == 'all':
-        output_model.model = torch.load('model/pth/output_D2.pth')
-        output_model.test(loader_out_test, i)
-
+        # output_model.model = torch.load('model/pth/output_D2.pth')
+        # output_model.model = torch.load('model/pth/output_D2_address.pth')
+        output_model.model = torch.load('model/pth/output_D2_' + PER + '.pth')
+        output_model.test(loader_out_train, i)
+        all_result = output_model.test(loader_out_test, i)
+        save_modle_result(all_result, PER, "all")
+    elif args.model == 'all_double':
+        if args.double == "grup":
+            output_model_double.model = torch.load('model/pth/output_D2_' + PER + '_gru_pattern.pth')  # gru,pattern
+            print("double_grup:", args.epochs)
+        elif args.double == "gcnp":
+            output_model_double.model = torch.load('model/pth/output_D2_' + PER + '_gcn_pattern.pth')  # gru,pattern
+            print("double_gcnp:", args.epochs)
+        elif args.double == "gg":
+            output_model_double.model = torch.load('model/pth/output_D2_' + PER + '_gcn_gru.pth')  # dgl,pattern
+            print("double_gg:",args.epochs)
+        else:
+            assert "double没有选择对应的两个相加!"
+        # output_model_double.model = torch.load('model/pth/output_D2_gru_pattern.pth')
+        # output_model_double.model = torch.load('model/pth/output_D2_gcn_pattern.pth')
+        # output_model_double.model = torch.load('model/pth/output_D2_gcn_gru.pth')
+        ## TODO:修改为不转化address的
+        # output_model_double.model = torch.load('model/pth/output_D2_gru_pattern_address.pth')
+        # output_model_double.model = torch.load('model/pth/output_D2_gcn_pattern_address.pth')
+        # output_model_double.model = torch.load('model/pth/output_D2_gcn_gru_address.pth')
+        output_model_double.test(loader_out_train, i)
+        double_result = output_model_double.test(loader_out_test, i)
+        save_modle_result(double_result, PER, "double_"+ args.double)
 
 
 
